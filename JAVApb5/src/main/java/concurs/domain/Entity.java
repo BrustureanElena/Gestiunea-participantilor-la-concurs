@@ -1,17 +1,17 @@
 package concurs.domain;
 
-public class Entity<ID> {
-
-    private ID id;
+public interface Entity<ID> {
 
 
-    public ID getId() {
-        return id;
-    }
 
 
-    public void setId(ID id) {
-        this.id = id;
-    }
+    ID getId() ;
+
+
+
+
+    void setId(ID id) ;
+
+
 
 }

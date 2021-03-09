@@ -2,7 +2,8 @@ package concurs.domain;
 
 import java.util.Objects;
 
-public class AngajatOficiu  extends Entity<Long>{
+public class AngajatOficiu  implements Entity<Long>{
+    private long id;
     private String username;
     private String parola;
 
@@ -47,5 +48,14 @@ public class AngajatOficiu  extends Entity<Long>{
                 "username='" + username + '\'' +
                 ", parola='" + parola + '\'' +
                 '}';
+    }
+    @Override
+    public Long getId() {
+        return id;
+    }
+
+    @Override
+    public void setId(Long id) {
+        this.id=id;
     }
 }

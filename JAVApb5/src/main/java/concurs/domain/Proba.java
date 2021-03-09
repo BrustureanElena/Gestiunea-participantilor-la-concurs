@@ -3,15 +3,15 @@ package concurs.domain;
 import java.util.List;
 import java.util.Objects;
 
-public class Proba  extends Entity<Long>{
+public class Proba  implements Entity<Long>{
+    private long id;
     private String denumire;
-    private List<Participant> participanti;
     private int varstaMin;
     private int varstaMax;
 
-    public Proba(String denumire, List<Participant> participanti, int varstaMin, int varstaMax) {
+    public Proba(String denumire,  int varstaMin, int varstaMax) {
         this.denumire = denumire;
-        this.participanti = participanti;
+
         this.varstaMin = varstaMin;
         this.varstaMax = varstaMax;
     }
@@ -24,13 +24,7 @@ public class Proba  extends Entity<Long>{
         this.denumire = denumire;
     }
 
-    public List<Participant> getparticipanti() {
-        return participanti;
-    }
 
-    public void setparticipanti(List<Participant> participanti) {
-        this.participanti = participanti;
-    }
 
     public int getVarstaMin() {
         return varstaMin;
@@ -53,24 +47,33 @@ public class Proba  extends Entity<Long>{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Proba proba = (Proba) o;
-        return varstaMin == proba.varstaMin &&
+        return id == proba.id &&
+                varstaMin == proba.varstaMin &&
                 varstaMax == proba.varstaMax &&
-                Objects.equals(denumire, proba.denumire) &&
-                Objects.equals(participanti, proba.participanti);
+                Objects.equals(denumire, proba.denumire);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(denumire, participanti, varstaMin, varstaMax);
+        return Objects.hash(denumire,varstaMin, varstaMax);
     }
 
     @Override
     public String toString() {
         return "Proba{" +
                 "denumire='" + denumire + '\'' +
-                ", participanti=" + participanti +
+
                 ", varstaMin=" + varstaMin +
                 ", varstaMax=" + varstaMax +
                 '}';
+    }
+    @Override
+    public Long getId() {
+        return id;
+    }
+
+    @Override
+    public void setId(Long id) {
+        this.id=id;
     }
 }

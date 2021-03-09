@@ -2,7 +2,8 @@ package concurs.domain;
 
 import java.util.Objects;
 
-public class Participant extends Entity<Long>{
+public class Participant implements Entity<Long>{
+    private long id;
     private String nume;
     private String prenume;
     private int varsta;
@@ -59,5 +60,15 @@ public class Participant extends Entity<Long>{
                 ", prenume='" + prenume + '\'' +
                 ", varsta=" + varsta +
                 '}';
+    }
+
+    @Override
+    public Long getId() {
+       return id;
+    }
+
+    @Override
+    public void setId(Long id) {
+    this.id=id;
     }
 }
