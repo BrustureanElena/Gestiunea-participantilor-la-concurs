@@ -42,11 +42,11 @@ namespace CSharp.domain
             return hashCode;
         }
 
+    
         public override string ToString()
         {
-            return base.ToString();
+            return string.Format("[Proba: Id={0}, Denumire={1},VarstaMin={2},VarstaMax={3}]", Id, Denumire,VarstaMin,VarstaMax);
         }
-
     
     }
 }

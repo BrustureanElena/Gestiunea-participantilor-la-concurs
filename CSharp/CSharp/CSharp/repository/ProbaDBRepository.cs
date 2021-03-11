@@ -11,7 +11,7 @@ namespace CSharp.repository
             throw new System.NotImplementedException();
         }
 
-        public List<Proba> FindAll()
+        public IEnumerable<Proba> FindAll()
         {
             throw new System.NotImplementedException();
         }

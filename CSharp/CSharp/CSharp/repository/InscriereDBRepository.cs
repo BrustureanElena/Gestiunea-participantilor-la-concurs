@@ -16,7 +16,7 @@ namespace CSharp.repository
             throw new System.NotImplementedException();
         }
 
-        List<Inscriere> ICrudRepository<long, Inscriere>.FindAll()
+        IEnumerable<Inscriere> ICrudRepository<long, Inscriere>.FindAll()
         {
             throw new System.NotImplementedException();
         }

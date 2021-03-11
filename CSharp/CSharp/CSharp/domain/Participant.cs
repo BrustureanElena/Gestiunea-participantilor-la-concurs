@@ -8,10 +8,22 @@ namespace CSharp.domain
 {
     public class Participant:Entity<long>
     {   public  long Id { get; set; }
-        private String Nume { get; set; }
-        private String Prenume { get; set; }
-        private int Varsta { get; set; }
-
+        private String nume;
+        private String prenume;
+        private int varsta;
+        public string Nume { 
+            get { return nume; } 
+            set {nume = value; } 
+        }
+        public string Prenume { 
+            get { return prenume; } 
+            set {prenume = value; } 
+        }
+        public int Varsta
+        {
+            get { return varsta; } 
+            set {varsta = value; } 
+        }
         public Participant(string nume, string prenume, int varsta)
         {
             Nume = nume;
@@ -37,11 +49,11 @@ namespace CSharp.domain
             return hashCode;
         }
 
+
         public override string ToString()
         {
-            return base.ToString();
+            return string.Format("[Participant: Id={0}, Nume={1},Prenume={2},Varsta={3}]", Id, Nume,Prenume,Varsta);
         }
-
        
     }
 }
