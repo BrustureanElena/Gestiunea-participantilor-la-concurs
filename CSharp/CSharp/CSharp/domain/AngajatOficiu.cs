@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharp.domain
 {
-    class AngajatOficiu:Entity<long>
-    {
+     class AngajatOficiu : Entity<long>
+    { 
+        public  long Id { get; set; }
         private String Username { get; set; }
         private String Parola { get; set; }
 
@@ -24,6 +25,7 @@ namespace CSharp.domain
                    Username == oficiu.Username &&
                    Parola == oficiu.Parola;
         }
+   
 
         public override int GetHashCode()
         {
@@ -37,5 +39,7 @@ namespace CSharp.domain
         {
             return base.ToString();
         }
+        
+     
     }
 }

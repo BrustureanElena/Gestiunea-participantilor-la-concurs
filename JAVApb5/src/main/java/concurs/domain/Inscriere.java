@@ -7,8 +7,8 @@ public class Inscriere implements Entity<Long>{
     private  Participant participant;
     private Proba proba;
 
-    public Inscriere(Long id, Participant participant, Proba proba) {
-        this.id = id;
+    public Inscriere(Participant participant, Proba proba) {
+
         this.participant = participant;
         this.proba = proba;
     }
@@ -55,12 +55,12 @@ public class Inscriere implements Entity<Long>{
 
     @Override
     public Long getId() {
-        return null;
+        return id;
     }
 
     @Override
     public void setId(Long aLong) {
-
+        id=aLong;
     }
 
 

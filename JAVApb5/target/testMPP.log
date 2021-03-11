@@ -1,0 +1,773 @@
+09 Mar 2021 13:57:37,694 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {} 
+09 Mar 2021 13:57:37,714 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 13:57:37,714 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 13:57:37,715 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 13:57:37,716 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... null
+09 Mar 2021 13:57:37,717 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+09 Mar 2021 13:57:37,717 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+09 Mar 2021 13:57:37,723 ERROR concurs.utils.JdbcUtils 42 getNewConnection - java.sql.SQLException: The url cannot be null
+09 Mar 2021 13:57:37,728 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit
+09 Mar 2021 13:59:55,967 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {} 
+09 Mar 2021 13:59:55,978 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 13:59:55,979 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 13:59:55,979 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 13:59:55,982 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... null
+09 Mar 2021 13:59:55,983 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+09 Mar 2021 13:59:55,984 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+09 Mar 2021 13:59:55,988 ERROR concurs.utils.JdbcUtils 42 getNewConnection - java.sql.SQLException: The url cannot be null
+09 Mar 2021 13:59:55,990 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit
+09 Mar 2021 14:01:19,877 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:postgresql://localhost:5432/postgres} 
+09 Mar 2021 14:01:19,890 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 14:01:19,891 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 14:01:19,891 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 14:01:19,892 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+09 Mar 2021 14:01:19,897 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+09 Mar 2021 14:01:19,899 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+09 Mar 2021 14:01:20,278 ERROR concurs.utils.JdbcUtils 42 getNewConnection - org.postgresql.util.PSQLException: Something unusual has occurred to cause the driver to fail. Please report this exception.
+09 Mar 2021 14:01:20,280 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit
+09 Mar 2021 14:02:14,895 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:postgresql://localhost:5432/postgres} 
+09 Mar 2021 14:02:14,910 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 14:02:14,910 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 14:02:14,911 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 14:02:14,912 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+09 Mar 2021 14:02:14,913 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+09 Mar 2021 14:02:14,913 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+09 Mar 2021 14:02:15,314 ERROR concurs.utils.JdbcUtils 42 getNewConnection - org.postgresql.util.PSQLException: Something unusual has occurred to cause the driver to fail. Please report this exception.
+09 Mar 2021 14:02:15,321 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit
+09 Mar 2021 14:03:48,510 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=admin} 
+09 Mar 2021 14:03:48,549 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 14:03:48,554 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 14:03:48,558 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 14:03:48,560 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+09 Mar 2021 14:03:48,569 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 14:03:48,571 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 14:03:49,257 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6950ed69)
+09 Mar 2021 14:03:49,308 TRACE concurs.repository.ParticipantiDBRepository 53 findAll - Exit with([])
+09 Mar 2021 14:04:19,692 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=admin} 
+09 Mar 2021 14:04:19,711 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 14:04:19,712 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 14:04:19,712 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 14:04:19,713 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+09 Mar 2021 14:04:19,713 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 14:04:19,714 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 14:04:20,331 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@56dc1551)
+09 Mar 2021 14:04:20,376 TRACE concurs.repository.ParticipantiDBRepository 53 findAll - Exit with([])
+09 Mar 2021 14:05:09,627 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=admin} 
+09 Mar 2021 14:05:09,647 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 14:05:09,649 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 14:05:09,650 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 14:05:09,651 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+09 Mar 2021 14:05:09,651 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 14:05:09,652 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 14:05:10,288 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6950ed69)
+09 Mar 2021 14:05:10,334 TRACE concurs.repository.ParticipantiDBRepository 53 findAll - Exit with([])
+09 Mar 2021 14:05:51,586 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=admin} 
+09 Mar 2021 14:05:51,607 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 14:05:51,608 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 14:05:51,608 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 14:05:51,609 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+09 Mar 2021 14:05:51,610 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 14:05:51,611 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 14:05:52,250 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1890516e)
+09 Mar 2021 14:05:52,290 TRACE concurs.repository.ParticipantiDBRepository 53 findAll - Exit with([])
+09 Mar 2021 14:07:36,140 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=admin} 
+09 Mar 2021 14:07:36,193 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 14:07:36,194 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 14:07:36,194 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 14:07:36,195 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+09 Mar 2021 14:07:36,196 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 14:07:36,198 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 14:07:37,002 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@31edaa7d)
+09 Mar 2021 14:07:37,042 TRACE concurs.repository.ParticipantiDBRepository 54 findAll - Exit with([])
+09 Mar 2021 14:08:54,895 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=admin} 
+09 Mar 2021 14:08:54,906 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 14:08:54,906 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 14:08:54,906 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 14:08:54,907 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+09 Mar 2021 14:08:54,908 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 14:08:54,908 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 14:08:55,542 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@56dc1551)
+09 Mar 2021 14:08:55,587 TRACE concurs.repository.ParticipantiDBRepository 54 findAll - Exit with([])
+09 Mar 2021 14:09:55,543 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=admin} 
+09 Mar 2021 14:09:55,561 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 14:09:55,562 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 14:09:55,562 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 14:09:55,563 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+09 Mar 2021 14:09:55,563 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 14:09:55,564 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 14:09:56,207 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@791d1f8b)
+09 Mar 2021 14:09:56,244 TRACE concurs.repository.ParticipantiDBRepository 54 findAll - Exit with([])
+09 Mar 2021 14:25:38,162 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=admin} 
+09 Mar 2021 14:25:38,173 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 14:25:38,174 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 14:25:38,174 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 14:25:38,175 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+09 Mar 2021 14:25:38,176 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 14:25:38,176 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 14:25:38,954 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1890516e)
+09 Mar 2021 14:25:39,011 TRACE concurs.repository.ParticipantiDBRepository 54 findAll - Exit with([])
+09 Mar 2021 14:26:30,372 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 14:26:30,384 TRACE concurs.repository.ParticipantiDBRepository 33 findAll - Enter
+09 Mar 2021 14:26:30,384 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 14:26:30,385 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 14:26:30,386 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 14:26:30,388 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 14:26:30,388 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 14:26:31,064 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@15a04efb)
+09 Mar 2021 14:26:31,108 TRACE concurs.repository.ParticipantiDBRepository 54 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}])
+09 Mar 2021 15:14:15,414 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:14:15,440 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:14:15,440 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:14:15,441 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:14:15,442 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:14:15,442 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:14:15,443 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:14:16,397 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@26adfd2d)
+09 Mar 2021 15:14:16,399 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:14:16,400 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:14:16,401 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@26adfd2d)
+09 Mar 2021 15:14:16,433 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 15:14:16,434 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 15:14:16,435 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 15:14:16,435 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:14:16,436 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@26adfd2d)
+09 Mar 2021 15:14:16,453 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 15:24:41,225 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:24:41,263 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:24:41,264 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:24:41,265 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:24:41,270 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:24:41,272 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:24:41,274 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:24:42,004 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7bf3a5d8)
+09 Mar 2021 15:24:42,005 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:24:42,006 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:24:42,007 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7bf3a5d8)
+09 Mar 2021 15:24:42,037 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 15:24:42,038 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 15:24:42,038 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 15:24:42,040 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:24:42,040 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7bf3a5d8)
+09 Mar 2021 15:24:42,057 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 15:24:42,058 TRACE concurs.repository.ParticipantiDBRepository 80 findOne - Enter
+09 Mar 2021 15:24:42,059 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:24:42,059 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7bf3a5d8)
+09 Mar 2021 15:24:42,062 TRACE concurs.repository.ParticipantiDBRepository 102 findOne - Exit with(Participant{nume='Pop', prenume='Dani', varsta=2})
+09 Mar 2021 15:25:50,478 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:25:50,504 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:25:50,505 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:25:50,505 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:25:50,506 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:25:50,507 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:25:50,507 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:25:51,322 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@44be0077)
+09 Mar 2021 15:25:51,323 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:25:51,323 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:25:51,324 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@44be0077)
+09 Mar 2021 15:25:51,369 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 15:25:51,371 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 15:25:51,379 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 15:25:51,385 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:25:51,387 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@44be0077)
+09 Mar 2021 15:25:51,403 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 15:25:51,406 TRACE concurs.repository.ParticipantiDBRepository 80 findOne - Enter
+09 Mar 2021 15:25:51,406 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:25:51,407 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@44be0077)
+09 Mar 2021 15:25:51,410 TRACE concurs.repository.ParticipantiDBRepository 102 findOne - Exit with(Participant{nume='Pop', prenume='Dani', varsta=2})
+09 Mar 2021 15:37:54,158 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:37:54,189 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:37:54,190 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:37:54,193 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:37:54,194 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:37:54,196 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:37:54,196 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:37:54,876 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@16c069df)
+09 Mar 2021 15:37:54,877 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:37:54,878 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:37:54,879 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@16c069df)
+09 Mar 2021 15:37:54,909 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 15:37:54,910 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 15:37:54,911 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 15:37:54,912 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:37:54,912 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@16c069df)
+09 Mar 2021 15:37:54,929 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 15:37:54,930 TRACE concurs.repository.ParticipantiDBRepository 80 findOne - Enter
+09 Mar 2021 15:37:54,931 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:37:54,932 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@16c069df)
+09 Mar 2021 15:37:54,934 TRACE concurs.repository.ParticipantiDBRepository 102 findOne - Exit with(Participant{nume='Pop', prenume='Dani', varsta=2})
+09 Mar 2021 15:37:54,937 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:37:54,948 TRACE concurs.repository.ProbaDBRepository 31 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:37:54,949 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:37:54,949 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:37:54,950 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:37:54,951 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:37:54,951 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:37:55,070 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4c012563)
+09 Mar 2021 15:37:55,071 TRACE concurs.repository.ProbaDBRepository 33 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:37:55,071 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:37:55,072 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4c012563)
+09 Mar 2021 15:37:55,079 TRACE concurs.repository.ProbaDBRepository 40 add - Enter Saved 1 instances
+09 Mar 2021 15:37:55,080 TRACE concurs.repository.ProbaDBRepository 44 add - Exit
+09 Mar 2021 15:37:55,080 TRACE concurs.repository.ProbaDBRepository 50 findAll - Enter
+09 Mar 2021 15:37:55,081 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:37:55,081 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4c012563)
+09 Mar 2021 15:37:55,083 TRACE concurs.repository.ProbaDBRepository 71 findAll - Exit with([Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}])
+09 Mar 2021 15:37:55,084 TRACE concurs.repository.ProbaDBRepository 79 findOne - Enter
+09 Mar 2021 15:37:55,084 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:37:55,085 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4c012563)
+09 Mar 2021 15:37:55,087 TRACE concurs.repository.ProbaDBRepository 104 findOne - Exit with(Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11})
+09 Mar 2021 15:38:52,574 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:38:52,603 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:38:52,604 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:38:52,605 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:38:52,606 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:38:52,607 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:38:52,608 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:38:53,356 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@51a9ad5e)
+09 Mar 2021 15:38:53,356 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:38:53,357 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:38:53,357 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@51a9ad5e)
+09 Mar 2021 15:38:53,380 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 15:38:53,380 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 15:38:53,381 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 15:38:53,382 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:38:53,382 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@51a9ad5e)
+09 Mar 2021 15:38:53,393 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 15:38:53,395 TRACE concurs.repository.ParticipantiDBRepository 80 findOne - Enter
+09 Mar 2021 15:38:53,395 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:38:53,396 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@51a9ad5e)
+09 Mar 2021 15:38:53,398 TRACE concurs.repository.ParticipantiDBRepository 102 findOne - Exit with(Participant{nume='Pop', prenume='Dani', varsta=2})
+09 Mar 2021 15:38:53,401 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:38:53,410 TRACE concurs.repository.ProbaDBRepository 31 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:38:53,411 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:38:53,411 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:38:53,412 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:38:53,412 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:38:53,413 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:38:53,504 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1c852c0f)
+09 Mar 2021 15:38:53,505 TRACE concurs.repository.ProbaDBRepository 33 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:38:53,506 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:38:53,506 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1c852c0f)
+09 Mar 2021 15:38:53,512 TRACE concurs.repository.ProbaDBRepository 40 add - Enter Saved 1 instances
+09 Mar 2021 15:38:53,512 TRACE concurs.repository.ProbaDBRepository 44 add - Exit
+09 Mar 2021 15:38:53,513 TRACE concurs.repository.ProbaDBRepository 50 findAll - Enter
+09 Mar 2021 15:38:53,513 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:38:53,514 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1c852c0f)
+09 Mar 2021 15:38:53,517 TRACE concurs.repository.ProbaDBRepository 71 findAll - Exit with([Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='poezie', varstaMin=6, varstaMax=8}, Proba{denumire='desen', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}])
+09 Mar 2021 15:38:53,519 TRACE concurs.repository.ProbaDBRepository 79 findOne - Enter
+09 Mar 2021 15:38:53,519 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:38:53,520 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1c852c0f)
+09 Mar 2021 15:38:53,522 TRACE concurs.repository.ProbaDBRepository 104 findOne - Exit with(Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11})
+09 Mar 2021 15:50:42,895 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:50:42,919 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:50:42,920 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:50:42,921 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:50:42,923 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:50:42,923 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:50:42,924 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:50:43,537 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3336e6b6)
+09 Mar 2021 15:50:43,538 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:50:43,538 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:50:43,539 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3336e6b6)
+09 Mar 2021 15:50:43,570 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 15:50:43,572 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 15:50:43,573 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 15:50:43,574 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:50:43,575 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3336e6b6)
+09 Mar 2021 15:50:43,591 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 15:50:43,593 TRACE concurs.repository.ParticipantiDBRepository 80 findOne - Enter
+09 Mar 2021 15:50:43,594 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:50:43,594 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3336e6b6)
+09 Mar 2021 15:50:43,597 TRACE concurs.repository.ParticipantiDBRepository 102 findOne - Exit with(Participant{nume='Pop', prenume='Dani', varsta=2})
+09 Mar 2021 15:50:43,604 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:50:43,614 TRACE concurs.repository.ProbaDBRepository 31 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:50:43,615 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:50:43,615 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:50:43,616 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:50:43,616 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:50:43,617 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:50:43,747 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@e3c0e40)
+09 Mar 2021 15:50:43,748 TRACE concurs.repository.ProbaDBRepository 33 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:50:43,748 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:50:43,749 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@e3c0e40)
+09 Mar 2021 15:50:43,755 TRACE concurs.repository.ProbaDBRepository 40 add - Enter Saved 1 instances
+09 Mar 2021 15:50:43,756 TRACE concurs.repository.ProbaDBRepository 44 add - Exit
+09 Mar 2021 15:50:43,756 TRACE concurs.repository.ProbaDBRepository 50 findAll - Enter
+09 Mar 2021 15:50:43,757 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:50:43,758 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@e3c0e40)
+09 Mar 2021 15:50:43,761 TRACE concurs.repository.ProbaDBRepository 71 findAll - Exit with([Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='poezie', varstaMin=6, varstaMax=8}, Proba{denumire='desen', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}])
+09 Mar 2021 15:50:43,762 TRACE concurs.repository.ProbaDBRepository 79 findOne - Enter
+09 Mar 2021 15:50:43,762 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:50:43,763 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@e3c0e40)
+09 Mar 2021 15:50:43,765 TRACE concurs.repository.ProbaDBRepository 104 findOne - Exit with(Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11})
+09 Mar 2021 15:52:18,038 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:52:18,064 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:52:18,064 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:52:18,066 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:52:18,067 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:52:18,067 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:52:18,068 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:52:19,082 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@26adfd2d)
+09 Mar 2021 15:52:19,083 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:52:19,084 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:52:19,086 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@26adfd2d)
+09 Mar 2021 15:52:19,120 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 15:52:19,121 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 15:52:19,122 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 15:52:19,123 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:52:19,123 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@26adfd2d)
+09 Mar 2021 15:52:19,145 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 15:52:19,146 TRACE concurs.repository.ParticipantiDBRepository 80 findOne - Enter
+09 Mar 2021 15:52:19,147 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:52:19,147 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@26adfd2d)
+09 Mar 2021 15:52:19,151 TRACE concurs.repository.ParticipantiDBRepository 102 findOne - Exit with(Participant{nume='Pop', prenume='Dani', varsta=2})
+09 Mar 2021 15:52:19,154 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:52:19,163 TRACE concurs.repository.ProbaDBRepository 31 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:52:19,163 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:52:19,164 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:52:19,164 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:52:19,165 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:52:19,165 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:52:19,296 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4bd31064)
+09 Mar 2021 15:52:19,297 TRACE concurs.repository.ProbaDBRepository 33 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:52:19,297 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:52:19,298 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4bd31064)
+09 Mar 2021 15:52:19,307 TRACE concurs.repository.ProbaDBRepository 40 add - Enter Saved 1 instances
+09 Mar 2021 15:52:19,307 TRACE concurs.repository.ProbaDBRepository 44 add - Exit
+09 Mar 2021 15:52:19,308 TRACE concurs.repository.ProbaDBRepository 50 findAll - Enter
+09 Mar 2021 15:52:19,308 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:52:19,309 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4bd31064)
+09 Mar 2021 15:52:19,319 TRACE concurs.repository.ProbaDBRepository 71 findAll - Exit with([Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='poezie', varstaMin=6, varstaMax=8}, Proba{denumire='desen', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}])
+09 Mar 2021 15:52:19,325 TRACE concurs.repository.ProbaDBRepository 79 findOne - Enter
+09 Mar 2021 15:52:19,326 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:52:19,326 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4bd31064)
+09 Mar 2021 15:52:19,329 TRACE concurs.repository.ProbaDBRepository 104 findOne - Exit with(Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11})
+09 Mar 2021 15:52:19,331 TRACE concurs.repository.ProbaDBRepository 111 findOneDenumire - Enter
+09 Mar 2021 15:52:19,332 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:52:19,333 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4bd31064)
+09 Mar 2021 15:52:19,388 TRACE concurs.repository.ProbaDBRepository 136 findOneDenumire - Exit
+09 Mar 2021 15:53:05,199 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:53:05,236 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:53:05,236 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:53:05,237 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:53:05,238 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:53:05,239 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:53:05,247 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:53:06,120 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@93081b6)
+09 Mar 2021 15:53:06,122 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:53:06,122 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:53:06,125 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@93081b6)
+09 Mar 2021 15:53:06,158 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 15:53:06,160 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 15:53:06,161 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 15:53:06,162 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:53:06,162 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@93081b6)
+09 Mar 2021 15:53:06,180 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 15:53:06,182 TRACE concurs.repository.ParticipantiDBRepository 80 findOne - Enter
+09 Mar 2021 15:53:06,183 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:53:06,183 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@93081b6)
+09 Mar 2021 15:53:06,186 TRACE concurs.repository.ParticipantiDBRepository 102 findOne - Exit with(Participant{nume='Pop', prenume='Dani', varsta=2})
+09 Mar 2021 15:53:06,189 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:53:06,205 TRACE concurs.repository.ProbaDBRepository 31 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:53:06,206 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:53:06,208 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:53:06,209 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:53:06,210 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:53:06,210 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:53:06,333 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a00d9cf)
+09 Mar 2021 15:53:06,334 TRACE concurs.repository.ProbaDBRepository 33 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:53:06,334 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:53:06,335 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a00d9cf)
+09 Mar 2021 15:53:06,344 TRACE concurs.repository.ProbaDBRepository 40 add - Enter Saved 1 instances
+09 Mar 2021 15:53:06,344 TRACE concurs.repository.ProbaDBRepository 44 add - Exit
+09 Mar 2021 15:53:06,344 TRACE concurs.repository.ProbaDBRepository 50 findAll - Enter
+09 Mar 2021 15:53:06,345 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:53:06,345 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a00d9cf)
+09 Mar 2021 15:53:06,348 TRACE concurs.repository.ProbaDBRepository 71 findAll - Exit with([Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='poezie', varstaMin=6, varstaMax=8}, Proba{denumire='desen', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}])
+09 Mar 2021 15:53:06,350 TRACE concurs.repository.ProbaDBRepository 79 findOne - Enter
+09 Mar 2021 15:53:06,350 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:53:06,350 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a00d9cf)
+09 Mar 2021 15:53:06,353 TRACE concurs.repository.ProbaDBRepository 104 findOne - Exit with(Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11})
+09 Mar 2021 15:53:06,354 TRACE concurs.repository.ProbaDBRepository 111 findOneDenumire - Enter
+09 Mar 2021 15:53:06,354 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:53:06,354 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a00d9cf)
+09 Mar 2021 15:53:06,387 TRACE concurs.repository.ProbaDBRepository 136 findOneDenumire - Exit
+09 Mar 2021 15:54:04,453 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:54:04,476 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:54:04,477 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:54:04,478 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:54:04,478 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:54:04,479 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:54:04,480 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:54:05,181 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@93081b6)
+09 Mar 2021 15:54:05,187 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:54:05,188 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:54:05,189 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@93081b6)
+09 Mar 2021 15:54:05,231 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 15:54:05,232 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 15:54:05,233 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 15:54:05,234 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:54:05,235 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@93081b6)
+09 Mar 2021 15:54:05,251 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 15:54:05,253 TRACE concurs.repository.ParticipantiDBRepository 80 findOne - Enter
+09 Mar 2021 15:54:05,253 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:54:05,254 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@93081b6)
+09 Mar 2021 15:54:05,257 TRACE concurs.repository.ParticipantiDBRepository 102 findOne - Exit with(Participant{nume='Pop', prenume='Dani', varsta=2})
+09 Mar 2021 15:54:05,261 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:54:05,270 TRACE concurs.repository.ProbaDBRepository 31 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:54:05,271 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:54:05,271 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:54:05,272 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:54:05,272 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:54:05,273 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:54:05,694 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a00d9cf)
+09 Mar 2021 15:54:05,694 TRACE concurs.repository.ProbaDBRepository 33 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:54:05,694 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:54:05,695 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a00d9cf)
+09 Mar 2021 15:54:05,739 TRACE concurs.repository.ProbaDBRepository 40 add - Enter Saved 1 instances
+09 Mar 2021 15:54:05,740 TRACE concurs.repository.ProbaDBRepository 44 add - Exit
+09 Mar 2021 15:54:05,740 TRACE concurs.repository.ProbaDBRepository 50 findAll - Enter
+09 Mar 2021 15:54:05,740 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:54:05,741 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a00d9cf)
+09 Mar 2021 15:54:05,744 TRACE concurs.repository.ProbaDBRepository 71 findAll - Exit with([Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='poezie', varstaMin=6, varstaMax=8}, Proba{denumire='desen', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}])
+09 Mar 2021 15:54:05,745 TRACE concurs.repository.ProbaDBRepository 79 findOne - Enter
+09 Mar 2021 15:54:05,746 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:54:05,746 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a00d9cf)
+09 Mar 2021 15:54:05,748 TRACE concurs.repository.ProbaDBRepository 104 findOne - Exit with(Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11})
+09 Mar 2021 15:54:05,750 TRACE concurs.repository.ProbaDBRepository 111 findOneDenumire - Enter
+09 Mar 2021 15:54:05,752 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:54:05,752 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a00d9cf)
+09 Mar 2021 15:54:05,787 TRACE concurs.repository.ProbaDBRepository 136 findOneDenumire - Exit
+09 Mar 2021 15:58:20,290 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:58:20,316 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:58:20,317 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:58:20,317 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:58:20,321 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:58:20,325 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:58:20,326 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:58:21,202 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7bf3a5d8)
+09 Mar 2021 15:58:21,202 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:58:21,203 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:58:21,204 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7bf3a5d8)
+09 Mar 2021 15:58:21,228 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 15:58:21,229 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 15:58:21,230 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 15:58:21,231 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:58:21,232 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7bf3a5d8)
+09 Mar 2021 15:58:21,251 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 15:58:21,254 TRACE concurs.repository.ParticipantiDBRepository 80 findOne - Enter
+09 Mar 2021 15:58:21,255 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:58:21,256 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7bf3a5d8)
+09 Mar 2021 15:58:21,259 TRACE concurs.repository.ParticipantiDBRepository 102 findOne - Exit with(Participant{nume='Pop', prenume='Dani', varsta=2})
+09 Mar 2021 15:58:21,394 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:58:21,404 TRACE concurs.repository.ProbaDBRepository 31 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:58:21,405 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:58:21,405 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:58:21,406 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:58:21,407 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:58:21,408 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:58:21,506 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7f8a9499)
+09 Mar 2021 15:58:21,506 TRACE concurs.repository.ProbaDBRepository 33 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:58:21,509 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:58:21,510 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7f8a9499)
+09 Mar 2021 15:58:21,520 TRACE concurs.repository.ProbaDBRepository 40 add - Enter Saved 1 instances
+09 Mar 2021 15:58:21,521 TRACE concurs.repository.ProbaDBRepository 44 add - Exit
+09 Mar 2021 15:58:21,521 TRACE concurs.repository.ProbaDBRepository 50 findAll - Enter
+09 Mar 2021 15:58:21,522 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:58:21,524 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7f8a9499)
+09 Mar 2021 15:58:21,530 TRACE concurs.repository.ProbaDBRepository 71 findAll - Exit with([Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='poezie', varstaMin=6, varstaMax=8}, Proba{denumire='desen', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}])
+09 Mar 2021 15:58:21,531 TRACE concurs.repository.ProbaDBRepository 79 findOne - Enter
+09 Mar 2021 15:58:21,532 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:58:21,535 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7f8a9499)
+09 Mar 2021 15:58:21,553 TRACE concurs.repository.ProbaDBRepository 104 findOne - Exit with(Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11})
+09 Mar 2021 15:58:21,561 TRACE concurs.repository.ProbaDBRepository 111 findOneDenumire - Enter
+09 Mar 2021 15:58:21,564 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:58:21,565 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7f8a9499)
+09 Mar 2021 15:59:26,659 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:59:26,693 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:59:26,694 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:59:26,694 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:59:26,695 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:59:26,695 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:59:26,696 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:59:27,783 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3336e6b6)
+09 Mar 2021 15:59:27,788 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 15:59:27,789 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:59:27,790 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3336e6b6)
+09 Mar 2021 15:59:27,826 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 15:59:27,827 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 15:59:27,828 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 15:59:27,828 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:59:27,829 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3336e6b6)
+09 Mar 2021 15:59:27,847 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 15:59:27,850 TRACE concurs.repository.ParticipantiDBRepository 80 findOne - Enter
+09 Mar 2021 15:59:27,851 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:59:27,852 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3336e6b6)
+09 Mar 2021 15:59:27,855 TRACE concurs.repository.ParticipantiDBRepository 102 findOne - Exit with(Participant{nume='Pop', prenume='Dani', varsta=2})
+09 Mar 2021 15:59:27,860 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 15:59:27,874 TRACE concurs.repository.ProbaDBRepository 31 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:59:27,875 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:59:27,875 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 15:59:27,876 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 15:59:27,877 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 15:59:27,877 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 15:59:27,988 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@e3c0e40)
+09 Mar 2021 15:59:27,989 TRACE concurs.repository.ProbaDBRepository 33 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 15:59:27,989 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:59:27,991 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@e3c0e40)
+09 Mar 2021 15:59:27,996 TRACE concurs.repository.ProbaDBRepository 40 add - Enter Saved 1 instances
+09 Mar 2021 15:59:27,997 TRACE concurs.repository.ProbaDBRepository 44 add - Exit
+09 Mar 2021 15:59:27,997 TRACE concurs.repository.ProbaDBRepository 50 findAll - Enter
+09 Mar 2021 15:59:27,998 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:59:27,998 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@e3c0e40)
+09 Mar 2021 15:59:28,001 TRACE concurs.repository.ProbaDBRepository 71 findAll - Exit with([Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='poezie', varstaMin=6, varstaMax=8}, Proba{denumire='desen', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}])
+09 Mar 2021 15:59:28,003 TRACE concurs.repository.ProbaDBRepository 79 findOne - Enter
+09 Mar 2021 15:59:28,003 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:59:28,004 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@e3c0e40)
+09 Mar 2021 15:59:28,006 TRACE concurs.repository.ProbaDBRepository 104 findOne - Exit with(Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11})
+09 Mar 2021 15:59:28,007 TRACE concurs.repository.ProbaDBRepository 111 findOneDenumire - Enter
+09 Mar 2021 15:59:28,007 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 15:59:28,007 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@e3c0e40)
+09 Mar 2021 15:59:28,011 TRACE concurs.repository.ProbaDBRepository 136 findOneDenumire - Exit with(Proba{denumire='desen', varstaMin=9, varstaMax=11})
+09 Mar 2021 16:10:59,949 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 16:10:59,998 TRACE concurs.repository.ParticipantiDBRepository 30 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 16:11:00,000 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 16:11:00,001 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 16:11:00,004 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 16:11:00,006 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 16:11:00,006 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 16:11:01,725 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@189cbd7c)
+09 Mar 2021 16:11:01,726 TRACE concurs.repository.ParticipantiDBRepository 32 add - Enter saving taskParticipant{nume='Pop', prenume='Danicu', varsta=2}
+09 Mar 2021 16:11:01,726 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 16:11:01,727 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@189cbd7c)
+09 Mar 2021 16:11:01,751 TRACE concurs.repository.ParticipantiDBRepository 39 add - Enter Saved 1 instances
+09 Mar 2021 16:11:01,751 TRACE concurs.repository.ParticipantiDBRepository 43 add - Exit
+09 Mar 2021 16:11:01,752 TRACE concurs.repository.ParticipantiDBRepository 51 findAll - Enter
+09 Mar 2021 16:11:01,752 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 16:11:01,752 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@189cbd7c)
+09 Mar 2021 16:11:01,763 TRACE concurs.repository.ParticipantiDBRepository 72 findAll - Exit with([Participant{nume='Pop', prenume='Dani', varsta=2}, Participant{nume='Popica', prenume='Paul', varsta=2}, Participant{nume='Opris', prenume='Dana', varsta=3}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}, Participant{nume='Pop', prenume='Danicu', varsta=2}])
+09 Mar 2021 16:11:01,766 TRACE concurs.repository.ParticipantiDBRepository 80 findOne - Enter
+09 Mar 2021 16:11:01,767 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 16:11:01,768 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@189cbd7c)
+09 Mar 2021 16:11:01,770 TRACE concurs.repository.ParticipantiDBRepository 103 findOne - Exit with(Participant{nume='Pop', prenume='Dani', varsta=2})
+09 Mar 2021 16:11:01,773 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 16:11:01,783 TRACE concurs.repository.ProbaDBRepository 31 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 16:11:01,784 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 16:11:01,785 TRACE concurs.utils.JdbcUtils 25 getNewConnection - Enter
+09 Mar 2021 16:11:01,785 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 16:11:01,786 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 16:11:01,786 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 16:11:01,883 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@2b72cb8a)
+09 Mar 2021 16:11:01,885 TRACE concurs.repository.ProbaDBRepository 33 add - Enter saving taskProba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}
+09 Mar 2021 16:11:01,885 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 16:11:01,885 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@2b72cb8a)
+09 Mar 2021 16:11:01,891 TRACE concurs.repository.ProbaDBRepository 40 add - Enter Saved 1 instances
+09 Mar 2021 16:11:01,892 TRACE concurs.repository.ProbaDBRepository 44 add - Exit
+09 Mar 2021 16:11:01,892 TRACE concurs.repository.ProbaDBRepository 50 findAll - Enter
+09 Mar 2021 16:11:01,893 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 16:11:01,893 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@2b72cb8a)
+09 Mar 2021 16:11:01,896 TRACE concurs.repository.ProbaDBRepository 71 findAll - Exit with([Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='poezie', varstaMin=6, varstaMax=8}, Proba{denumire='desen', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}])
+09 Mar 2021 16:11:01,898 TRACE concurs.repository.ProbaDBRepository 109 findOne - Enter
+09 Mar 2021 16:11:01,898 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 16:11:01,898 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@2b72cb8a)
+09 Mar 2021 16:11:01,901 TRACE concurs.repository.ProbaDBRepository 134 findOne - Exit with(Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11})
+09 Mar 2021 16:11:01,905 TRACE concurs.repository.ProbaDBRepository 141 findOneByDenumire - Enter
+09 Mar 2021 16:11:01,906 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 16:11:01,910 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@2b72cb8a)
+09 Mar 2021 16:11:01,913 TRACE concurs.repository.ProbaDBRepository 165 findOneByDenumire - Exit with(Proba{denumire='desen', varstaMin=9, varstaMax=11})
+09 Mar 2021 16:11:01,914 TRACE concurs.repository.ProbaDBRepository 79 findAllByDenumire - Enter
+09 Mar 2021 16:11:01,914 TRACE concurs.utils.JdbcUtils 49 getConnection - Enter
+09 Mar 2021 16:11:01,915 TRACE concurs.utils.JdbcUtils 58 getConnection - Exit with(org.postgresql.jdbc.PgConnection@2b72cb8a)
+09 Mar 2021 16:11:01,916 TRACE concurs.repository.ProbaDBRepository 101 findAllByDenumire - Exit with([Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}, Proba{denumire='cautarea unei comori', varstaMin=9, varstaMax=11}])
+09 Mar 2021 16:12:10,125 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 16:12:10,134 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 16:12:10,135 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 16:12:10,135 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 16:12:10,753 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 16:12:10,755 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 16:12:10,756 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 16:12:10,756 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:03:26,648 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:03:26,661 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:03:26,662 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:03:26,662 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:03:27,660 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:03:27,661 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:03:27,661 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:03:27,661 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:03:27,768 INFO  concurs.repository.InscriereDBRepository 23 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:03:27,772 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:03:27,773 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:03:27,773 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:03:59,284 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:03:59,299 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:03:59,299 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:03:59,300 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:04:00,071 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:04:00,072 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:04:00,073 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:04:00,074 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:04:00,384 INFO  concurs.repository.InscriereDBRepository 23 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:04:00,388 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:04:00,389 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:04:00,389 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:13:55,189 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:13:55,198 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:13:55,199 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:13:55,201 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:13:55,780 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:13:55,781 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:13:55,782 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:13:55,783 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:13:55,928 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:13:55,932 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:13:55,933 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:13:55,933 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:14:20,589 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:14:20,601 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:14:20,602 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:14:20,602 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:14:21,161 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:14:21,162 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:14:21,162 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:14:21,163 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:14:21,311 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:14:21,312 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:14:21,313 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:14:21,314 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:15:38,807 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:15:38,818 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:15:38,818 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:15:38,819 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:15:39,361 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:15:39,362 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:15:39,363 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:15:39,363 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:15:39,447 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:15:39,448 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:15:39,449 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:15:39,449 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:27:58,109 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:27:58,121 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:27:58,122 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:27:58,123 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:27:59,103 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:27:59,104 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:27:59,105 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:27:59,106 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:27:59,271 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:27:59,272 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:27:59,274 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:27:59,275 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:28:50,779 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:28:50,787 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:28:50,787 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:28:50,788 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:28:51,437 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:28:51,437 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:28:51,438 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:28:51,439 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 17:28:51,540 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 17:28:51,541 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 17:28:51,542 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 17:28:51,542 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 18:15:14,254 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 18:15:14,261 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 18:15:14,261 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 18:15:14,262 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 18:15:14,893 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 18:15:14,894 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 18:15:14,895 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 18:15:14,895 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+09 Mar 2021 18:15:15,033 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+09 Mar 2021 18:15:15,035 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+09 Mar 2021 18:15:15,036 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+09 Mar 2021 18:15:15,038 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 12:02:31,145 INFO  concurs.repository.ParticipantiDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 12:02:31,155 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 12:02:31,156 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 12:02:31,156 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 12:02:31,865 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 12:02:31,866 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 12:02:31,867 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 12:02:31,868 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 12:02:31,993 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 12:02:31,994 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 12:02:31,994 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 12:02:31,995 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 12:25:37,362 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 12:25:37,370 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 12:25:37,371 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 12:25:37,372 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 12:25:37,931 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 12:25:37,933 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 12:25:37,934 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 12:25:37,962 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 12:25:38,151 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 12:25:38,152 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 12:25:38,153 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 12:25:38,153 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 12:37:37,110 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 12:37:37,117 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 12:37:37,118 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 12:37:37,118 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 12:37:37,534 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 12:37:37,535 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 12:37:37,536 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 12:37:37,536 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 12:37:37,615 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 12:37:37,616 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 12:37:37,617 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 12:37:37,618 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 13:05:25,728 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 13:05:25,734 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 13:05:25,735 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 13:05:25,736 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 13:05:26,223 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 13:05:26,227 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 13:05:26,228 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 13:05:26,228 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+10 Mar 2021 13:05:26,461 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs, jdbc.pass=admin} 
+10 Mar 2021 13:05:26,462 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/concurs
+10 Mar 2021 13:05:26,463 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: postgres
+10 Mar 2021 13:05:26,464 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: admin
+11 Mar 2021 16:02:24,348 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 16:02:24,363 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:02:24,367 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 16:02:24,367 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 16:02:24,392 ERROR concurs.utils.JdbcUtils 42 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:03:16,770 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 16:03:16,779 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:03:16,780 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 16:03:16,781 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 16:03:16,795 ERROR concurs.utils.JdbcUtils 42 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:06:59,264 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 16:06:59,274 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:06:59,275 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 16:06:59,275 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 16:06:59,295 ERROR concurs.utils.JdbcUtils 42 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:09:03,668 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 16:09:03,678 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:09:03,679 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 16:09:03,680 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 16:09:05,405 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 16:09:05,407 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:09:05,408 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 16:09:05,409 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 16:09:05,429 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 16:09:05,431 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:09:05,432 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 16:09:05,433 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 16:09:05,459 ERROR concurs.repository.ParticipantiDBRepository 136 getNrParticipantiProbaVarsta - java.sql.SQLException: no such column: 'count'
+11 Mar 2021 16:11:09,063 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 16:11:09,079 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:11:09,079 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 16:11:09,081 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 16:11:09,488 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 16:11:09,489 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:11:09,490 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 16:11:09,490 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 16:11:09,504 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 16:11:09,505 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 16:11:09,506 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 16:11:09,507 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null

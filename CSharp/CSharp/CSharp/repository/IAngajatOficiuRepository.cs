@@ -7,12 +7,9 @@ using System.Threading.Tasks;
 
 namespace CSharp.repository
 {
-    interface IRepositoryProba
+    interface IAngajatOficiuRepository:ICrudRepository<long,AngajatOficiu>
     {
-        Proba Add(Proba e);
-        Proba Delete(Proba e);
-        Proba Update(Proba e);
-        Proba FindOne(long id);
-        List<Proba> FindAll();
+
+         
     }
 }

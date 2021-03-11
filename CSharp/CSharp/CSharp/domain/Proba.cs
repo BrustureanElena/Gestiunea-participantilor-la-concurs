@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharp.domain
 {
-    class Proba:Entity<long>
+    public class Proba:Entity<long>
     {
-       
+        public  long Id { get; set; }
         private String Denumire { get; set; }
         private List<Participant> Participanti { get; set; }
         private int VarstaMin { get; set; }
@@ -46,5 +46,7 @@ namespace CSharp.domain
         {
             return base.ToString();
         }
+
+    
     }
 }

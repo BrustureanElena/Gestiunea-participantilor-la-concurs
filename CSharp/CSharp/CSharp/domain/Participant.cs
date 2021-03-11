@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CSharp.domain
 {
-    class Participant:Entity<long>
-    {
+    public class Participant:Entity<long>
+    {   public  long Id { get; set; }
         private String Nume { get; set; }
         private String Prenume { get; set; }
         private int Varsta { get; set; }
@@ -41,5 +41,7 @@ namespace CSharp.domain
         {
             return base.ToString();
         }
+
+       
     }
 }

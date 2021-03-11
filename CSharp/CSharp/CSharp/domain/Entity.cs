@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace CSharp.domain
 {
-    class Entity<TID>
+   interface Entity<TID>
     {
 
-        public TID Id { get; set; }
+        TID Id { get; set; }
 
-        public Entity(TID id)
-        {
-            Id = id;
-        }
-        public Entity() { }
+
     }
 }
