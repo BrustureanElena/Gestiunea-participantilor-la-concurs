@@ -9,15 +9,15 @@ namespace CSharp.domain
     public class Proba:Entity<long>
     {
         public  long Id { get; set; }
-        private String Denumire { get; set; }
-        private List<Participant> Participanti { get; set; }
-        private int VarstaMin { get; set; }
-        private int VarstaMax { get; set; }
+        public String Denumire { get; set; }
 
-        public Proba(string denumire, List<Participant> participanti, int varstaMin, int varstaMax)
+        public int VarstaMin { get; set; }
+        public int VarstaMax { get; set; }
+
+        public Proba(string denumire,int varstaMin, int varstaMax)
         {
             Denumire = denumire;
-            Participanti = participanti;
+       
             VarstaMin = varstaMin;
             VarstaMax = varstaMax;
         }
@@ -27,7 +27,7 @@ namespace CSharp.domain
         {
             return obj is Proba proba &&
                    Denumire == proba.Denumire &&
-                   EqualityComparer<List<Participant>>.Default.Equals(Participanti, proba.Participanti) &&
+                
                    VarstaMin == proba.VarstaMin &&
                    VarstaMax == proba.VarstaMax;
         }
@@ -36,7 +36,7 @@ namespace CSharp.domain
         {
             int hashCode = 1248040347;
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(Denumire);
-            hashCode = hashCode * -1521134295 + EqualityComparer<List<Participant>>.Default.GetHashCode(Participanti);
+
             hashCode = hashCode * -1521134295 + VarstaMin.GetHashCode();
             hashCode = hashCode * -1521134295 + VarstaMax.GetHashCode();
             return hashCode;

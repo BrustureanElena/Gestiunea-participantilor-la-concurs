@@ -5,6 +5,6 @@ namespace CSharp.repository
 {
     interface IInscriereRepository : ICrudRepository<long, Inscriere>
     {
-     List<Inscriere> FindAll();
+  
     }
 }

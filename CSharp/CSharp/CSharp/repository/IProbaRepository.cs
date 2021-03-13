@@ -11,9 +11,7 @@ namespace CSharp.repository
     {
         List<Proba> findAllByDenumire(String denumire1);
 
-     List<Proba> findAll();
-
-     Proba findOne(long aLong);
+        Proba FindOne(long aLong);
 
       Proba findOneByDenumire(String denumire1);
     }

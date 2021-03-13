@@ -10,7 +10,7 @@ namespace ConnectionUtils
         {
             //Mono Sqlite Connection
            
-          //  String connectionString = "URI=file:C:\\Users\\User\\Desktop\\bazededateMPP\\Concurs.db,Version=3";
+          //  String connectionString = "URI=file:C:\\Users\\User\\Desktop\\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharp\bin\Debug\Concurs.db,Version=3";
            // return new SqliteConnection(connectionString);
            
             // Windows Sqlite Connection, fisierul .db ar trebuie sa fie in directorul debug/bin

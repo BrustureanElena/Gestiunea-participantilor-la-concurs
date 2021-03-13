@@ -1,0 +1,29 @@
+2021-03-12 18:04:38,763 INFO Creating ParticipantDBRepository 
+2021-03-12 18:04:38,779 INFO Creating ProbaDBRepository 
+2021-03-12 18:04:38,921 INFO Entering findOne with value 9 
+2021-03-12 18:04:38,932 INFO Exiting findOne with value [Participant: Id=9, Nume=Mag,Prenume=Dana,Varsta=12] 
+2021-03-12 18:04:38,937 INFO Entering findOne with value 2 
+2021-03-12 18:04:38,938 INFO Exiting findOne with value [Proba: Id=2, Denumire=poezie,VarstaMin=6,VarstaMax=8] 
+2021-03-12 18:04:38,940 INFO Entering findOne with value 9 
+2021-03-12 18:04:38,940 INFO Exiting findOne with value [Participant: Id=9, Nume=Mag,Prenume=Dana,Varsta=12] 
+2021-03-12 18:04:38,940 INFO Entering findOne with value 1 
+2021-03-12 18:04:38,940 INFO Exiting findOne with value [Proba: Id=1, Denumire=cautarea unei comori,VarstaMin=9,VarstaMax=11] 
+2021-03-12 18:04:38,941 INFO Entering findOne with value 8 
+2021-03-12 18:04:38,942 INFO Exiting findOne with value [Participant: Id=8, Nume=Opris,Prenume=Dan,Varsta=11] 
+2021-03-12 18:04:38,942 INFO Entering findOne with value 2 
+2021-03-12 18:04:38,942 INFO Exiting findOne with value [Proba: Id=2, Denumire=poezie,VarstaMin=6,VarstaMax=8] 
+2021-03-12 18:04:38,942 INFO Entering findOne with value 10 
+2021-03-12 18:04:38,942 INFO Exiting findOne with value [Participant: Id=10, Nume=Popan,Prenume=Paul,Varsta=13] 
+2021-03-12 18:04:38,943 INFO Entering findOne with value 3 
+2021-03-12 18:04:38,943 INFO Exiting findOne with value [Proba: Id=3, Denumire=desen,VarstaMin=9,VarstaMax=11] 
+2021-03-12 18:04:38,943 INFO Entering findOne with value 8 
+2021-03-12 18:04:38,944 INFO Exiting findOne with value [Participant: Id=8, Nume=Opris,Prenume=Dan,Varsta=11] 
+2021-03-12 18:04:38,944 INFO Entering findOne with value 3 
+2021-03-12 18:04:38,944 INFO Exiting findOne with value [Proba: Id=3, Denumire=desen,VarstaMin=9,VarstaMax=11] 
+2021-03-12 18:04:38,947 INFO Entering findOne with value desen 
+2021-03-12 18:04:38,951 INFO Entering findOne with value Opris 
+2021-03-12 18:04:38,951 INFO <log4net.Error>Exception during StringFormat: Index (zero based) must be greater than or equal to zero and less than the size of the argument list. <format>Entering findOne with value {1}</format><args>{Dan}</args></log4net.Error> 
+2021-03-12 18:04:39,003 INFO <log4net.Error>Exception during StringFormat: Index (zero based) must be greater than or equal to zero and less than the size of the argument list. <format>Exiting findOne with value {0},{1}</format><args>{[Participant: Id=8, Nume=Opris,Prenume=Dan,Varsta=11]}</args></log4net.Error> 
+2021-03-12 18:04:39,018 INFO Entering findOne with value 3 
+2021-03-12 18:04:39,025 INFO Exiting findOne with value [Proba: Id=3, Denumire=desen,VarstaMin=9,VarstaMax=11] 
+2021-03-12 18:04:39,028 INFO Entering findOne with proba 3 

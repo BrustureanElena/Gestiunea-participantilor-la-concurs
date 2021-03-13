@@ -9,10 +9,9 @@ namespace CSharp.repository
 {
     interface IParticipantRepository: ICrudRepository<long,Participant>
     {
-        
         Participant FindOne(long id);
       int GetNrParticipantiProbaVarsta(Proba proba);
-      List<Participant> getParticipantiProbaVarsta(Proba proba);
+      List<Participant> GetParticipantiProbaVarsta(Proba proba);
       Participant FindOneByNumePrenume(String nume,String prenume);
 
 

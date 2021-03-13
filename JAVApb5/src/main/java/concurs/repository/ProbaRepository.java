@@ -13,6 +13,7 @@ public interface ProbaRepository extends CrudRepository<Long, Proba> {
 
     public Proba findOne(Long aLong);
 
+    //de STERS
     public Proba findOneByDenumire(String denumire1);
 
 }

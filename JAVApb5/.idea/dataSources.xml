@@ -13,11 +13,17 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/concurs</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="Concurs" uuid="6e7c79e1-3ace-46ec-a468-5c84df5649b9">
+    <data-source source="LOCAL" name="Concurs.db" uuid="d2014f44-ac5e-4190-baff-709ee1ee6166">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../CSharp/CSharp/CSharp/bin/Debug/Concurs.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Concurs.db [2]" uuid="60488cf2-a5b1-405e-a112-d9ba88be9514">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../CSharp/CSharp/CSharp/bin/Debug/Concurs.db</jdbc-url>
     </data-source>
   </component>
 </project>

@@ -61,6 +61,10 @@ public class Main {
         System.out.println("Participantu Pop Dani  este: "+participantiDBRepository.findOneByNumePrenume("Pop","Dani"));
 
 
+        System.out.println("Toti participantii din db");
+        for(Participant p: participantiDBRepository.findAll())
+            System.out.println(p);
+
 
     }
 }

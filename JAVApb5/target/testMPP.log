@@ -771,3 +771,211 @@
 11 Mar 2021 16:11:09,505 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
 11 Mar 2021 16:11:09,506 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
 11 Mar 2021 16:11:09,507 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 19:13:36,470 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 19:13:36,501 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 19:13:36,501 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 19:13:36,501 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 19:13:36,824 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 19:13:36,824 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 19:13:36,824 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 19:13:36,824 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 19:13:36,871 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 19:13:36,871 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 19:13:36,871 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 19:13:36,871 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:33:28,289 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:33:28,300 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:33:28,302 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:33:28,302 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:33:28,978 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:33:28,979 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:33:28,980 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:33:28,981 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:33:28,999 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:33:29,000 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:33:29,001 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:33:29,002 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:36:01,547 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:36:01,561 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:36:01,562 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:36:01,563 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:36:02,259 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:36:02,260 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:36:02,260 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:36:02,261 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:36:02,353 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:36:02,355 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:36:02,356 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:36:02,359 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:36:18,497 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:36:18,504 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:36:18,505 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:36:18,506 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:36:19,010 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:36:19,011 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:36:19,014 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:36:19,015 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:36:19,028 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:36:19,031 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:36:19,032 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:36:19,033 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:43:04,007 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:43:04,015 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:43:04,016 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:43:04,016 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:43:04,359 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:43:04,361 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:43:04,365 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:43:04,365 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:43:04,382 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:43:04,383 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:43:04,384 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:43:04,384 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:45:36,937 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:45:36,947 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:45:36,948 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:45:36,950 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:45:37,508 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:45:37,509 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:45:37,510 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:45:37,511 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:45:37,530 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:45:37,531 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:45:37,532 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:45:37,533 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:47:34,445 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:47:34,456 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:47:34,457 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:47:34,458 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:47:34,801 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:47:34,803 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:47:34,804 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:47:34,804 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:47:34,818 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:47:34,818 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:47:34,819 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:47:34,820 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:50:52,809 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:50:52,825 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:50:52,827 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:50:52,828 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:50:53,198 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:50:53,199 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:50:53,200 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:50:53,201 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:50:53,214 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:50:53,215 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:50:53,216 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:50:53,217 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:51:59,915 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:51:59,926 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:51:59,926 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:51:59,927 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:52:00,208 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:52:00,208 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:52:00,209 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:52:00,210 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:52:00,222 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:52:00,222 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:52:00,223 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:52:00,223 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:54:14,972 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:54:14,980 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:54:14,982 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:54:14,982 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:54:15,287 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:54:15,288 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:54:15,288 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:54:15,289 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:54:15,305 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:54:15,306 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:54:15,307 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:54:15,307 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:55:17,549 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:55:17,556 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:55:17,557 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:55:17,557 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:55:17,793 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:55:17,794 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:55:17,794 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:55:17,795 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+11 Mar 2021 23:55:17,805 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+11 Mar 2021 23:55:17,806 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+11 Mar 2021 23:55:17,806 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+11 Mar 2021 23:55:17,806 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:52:25,526 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:52:25,543 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:52:25,544 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:52:25,545 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:52:25,855 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:52:25,855 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:52:25,856 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:52:25,857 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:52:25,886 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:52:25,886 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:52:25,887 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:52:25,887 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:52:25,891 ERROR concurs.repository.InscriereDBRepository 82 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Inscrieri)
+12 Mar 2021 09:54:05,898 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:54:05,903 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:54:05,904 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:54:05,905 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:54:06,160 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:54:06,161 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:54:06,161 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:54:06,162 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:54:06,166 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:54:06,167 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:54:06,168 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:54:06,168 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:54:06,174 ERROR concurs.repository.InscriereDBRepository 82 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Inscrieri)
+12 Mar 2021 09:55:31,844 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:55:31,850 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:55:31,851 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:55:31,851 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:55:32,087 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:55:32,090 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:55:32,090 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:55:32,090 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:55:32,101 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:55:32,102 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:55:32,102 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:55:32,103 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:55:32,108 ERROR concurs.repository.InscriereDBRepository 82 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Inscrieri)
+12 Mar 2021 09:57:14,165 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:57:14,174 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:57:14,174 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:57:14,175 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:57:14,400 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:57:14,401 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:57:14,402 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:57:14,403 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:57:14,410 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db} 
+12 Mar 2021 09:57:14,411 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\Concurs.db
+12 Mar 2021 09:57:14,412 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:57:14,412 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:57:14,415 ERROR concurs.repository.InscriereDBRepository 82 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Inscrieri)
+12 Mar 2021 09:59:37,097 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+12 Mar 2021 09:59:37,118 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+12 Mar 2021 09:59:37,118 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:59:37,119 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:59:37,425 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+12 Mar 2021 09:59:37,426 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+12 Mar 2021 09:59:37,427 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:59:37,427 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+12 Mar 2021 09:59:37,464 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+12 Mar 2021 09:59:37,465 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+12 Mar 2021 09:59:37,465 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+12 Mar 2021 09:59:37,466 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+13 Mar 2021 11:04:58,704 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+13 Mar 2021 11:04:58,733 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+13 Mar 2021 11:04:58,734 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+13 Mar 2021 11:04:58,735 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+13 Mar 2021 11:04:59,186 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+13 Mar 2021 11:04:59,187 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+13 Mar 2021 11:04:59,187 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+13 Mar 2021 11:04:59,188 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+13 Mar 2021 11:04:59,239 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+13 Mar 2021 11:04:59,240 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+13 Mar 2021 11:04:59,241 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+13 Mar 2021 11:04:59,241 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
