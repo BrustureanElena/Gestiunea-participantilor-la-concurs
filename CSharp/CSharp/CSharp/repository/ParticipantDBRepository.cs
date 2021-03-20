@@ -145,48 +145,51 @@ namespace CSharp.repository
 
             return participants;
         }
+        
+       
 
-        public Participant FindOneByNumePrenume(string nume, string prenume)
+        public Participant findOneByNumePrenume2(string nume, string prenume)
         {
-            
-          /*  log.InfoFormat("Entering findOne with value {0}", nume);
-            log.InfoFormat("Entering findOne with value {1}", prenume);
+            log.InfoFormat("Entering findOne with value {0}{1}", nume,prenume);
             IDbConnection con = DBUtils.getConnection();
 
             using (var comm = con.CreateCommand())
             {
-                comm.CommandText = "select * from Participanti where nume=@nume AND prenume=@prenume";
-                IDbDataParameter paramNume = comm.CreateParameter();
-                IDbDataParameter paramPrenume = comm.CreateParameter();
-                paramNume.ParameterName = "@nume";
-                paramNume.Value = nume;
-                comm.Parameters.Add(paramNume);
-                paramPrenume.ParameterName = "@prenume";
-                paramPrenume.Value = prenume;
-                comm.Parameters.Add(paramPrenume);
+                comm.CommandText = "select * from Participanti where nume=@nume and prenume=@prenume";
+                IDbDataParameter paramId = comm.CreateParameter();
+                IDbDataParameter paramId2 = comm.CreateParameter();
+             
+                paramId.ParameterName = "@nume";
+                paramId.Value = nume;
+                paramId2.ParameterName = "@prenume";
+                paramId2.Value = prenume;
+              
+                comm.Parameters.Add(paramId);
+                comm.Parameters.Add(paramId2);
+            
 
                 using (var dataR = comm.ExecuteReader())
                 {
                     if (dataR.Read())
                     {
                         int idP = dataR.GetInt32(0);
-                        String nume2 = dataR.GetString(1);
-                        String prenum2 = dataR.GetString(2);
-                        int varsta = dataR.GetInt32(3);
+                        String nume1 = dataR.GetString(1);
+                        String prenume1 = dataR.GetString(2);
+                     
+                        int varsta1 = dataR.GetInt32(3);
 
-                        Participant participant = new Participant(nume2, prenum2, varsta);
-                        
-                       
-               
+                        Participant participant = new Participant(nume1, prenume1, varsta1);
+
                         participant.Id = idP;
-                        log.InfoFormat("Exiting findOne with value {0},{1}", participant);
-                        return participant;
+                     
+                        
+                        log.InfoFormat("Exiting findOne with value {0}",  participant);
+                        return  participant;
                     }
                 }
             }
-            log.InfoFormat("Exiting findOne with value {0},{1}", null);
-            return null;*/
-            throw new NotImplementedException();
+            log.InfoFormat("Exiting findOne with value {0}{1}", null);
+            return null;
         }
     }
 }

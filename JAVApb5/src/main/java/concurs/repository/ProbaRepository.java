@@ -13,7 +13,8 @@ public interface ProbaRepository extends CrudRepository<Long, Proba> {
 
     public Proba findOne(Long aLong);
 
-    //de STERS
-    public Proba findOneByDenumire(String denumire1);
+    public Proba findOneByDenumireVarsta(String denumire, int varstaMin, int varstaMax);
+
+
 
 }

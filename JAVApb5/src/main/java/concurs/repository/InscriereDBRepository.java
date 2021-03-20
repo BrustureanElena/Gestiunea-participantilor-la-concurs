@@ -88,10 +88,10 @@ public class InscriereDBRepository implements  InscriereRepository  {
         return inscrieri;
     }
 
+    @Override
+    public void update(Inscriere elem, Long aLong) {
 
-
-
-
+    }
 
 
 }

@@ -8,6 +8,8 @@ using CSharp.repository;
 using log4net.Config;
 using System.IO;
 using System.Configuration;
+using System.Web.UI.WebControls.WebParts;
+using CSharp.service;
 
 namespace CSharp
 {
@@ -16,7 +18,7 @@ namespace CSharp
         static void Main(string[] args)
         {
            
-            //Console.WriteLine ("Hello World!");
+       
            XmlConfigurator.Configure(new System.IO.FileInfo(args[0]));
 
 
@@ -27,7 +29,7 @@ namespace CSharp
          
            
           
-            Console.WriteLine("Participantii: ");
+            Console.WriteLine("Toti participantii din db: ");
             foreach (Participant t in participantDbRepository.FindAll())
             {
                 Console.WriteLine(t);
@@ -38,7 +40,7 @@ namespace CSharp
          
             
             
-            Console.WriteLine("Probele:  ");
+            Console.WriteLine("Toate probele:  ");
             foreach (Proba p in probaDbRepository.FindAll())
             {
                 Console.WriteLine(p);
@@ -47,20 +49,19 @@ namespace CSharp
           
             Console.WriteLine(probaDbRepository.FindOne(2L));
 
-            Console.WriteLine("Inscrierile sunt:  ");
+            Console.WriteLine("Toate inscrierile sunt:  ");
             foreach (Inscriere p in inscriereDbRepository.FindAll())
             {
                 Console.WriteLine(p);
             }
-           Console.WriteLine("Toate probele la desen: ");
+           Console.WriteLine("Toate probele de desen: ");
             foreach (Proba p in probaDbRepository.findAllByDenumire("desen"))
             {
                 Console.WriteLine(p);
             }
-            //Console.WriteLine("Participanul Opris Dan este: ");
-          //  Console.WriteLine(participantDbRepository.FindOneByNumePrenume("Opris","Dan"));
+          
 
-            Console.WriteLine("Participantii de la o proba");
+            Console.WriteLine("Participantii de la  proba 3");
             Proba proba = probaDbRepository.FindOne(3);
             foreach (Participant p in participantDbRepository.GetParticipantiProbaVarsta(proba))
             {
@@ -80,20 +81,64 @@ namespace CSharp
                 Console.WriteLine(p);
             }
 
-            Participant participant3 = new Participant("Groza", "Ionut", 20);
+            Participant participant3 = new Participant("Bursuc", "Vasile", 12);
             //participantDbRepository.Add(participant3);
             foreach (Participant t in participantDbRepository.FindAll())
             {
                 Console.WriteLine(t);
             }
 
-            Inscriere inscriere2 = new Inscriere(participantDbRepository.FindOne(8), probaDbRepository.FindOne(5));
-           // inscriereDbRepository.Add(inscriere2);
+            Inscriere inscriere2 = new Inscriere(participantDbRepository.FindOne(8), probaDbRepository.FindOne(4));
+            //inscriereDbRepository.Add(inscriere2);
             
             foreach (Inscriere t in inscriereDbRepository.FindAll())
             {
                 Console.WriteLine(t);
             }
+
+            AngajatOficiuDBRepository angajatOficiuDbRepository = new AngajatOficiuDBRepository();
+            Service service = new Service(participantDbRepository, probaDbRepository, inscriereDbRepository,angajatOficiuDbRepository
+                );
+            Console.WriteLine("OPRIS DAN ESTEEEE");
+            Console.WriteLine(service.findOneByNumePrenume("Opris","Dan"));
+            Console.WriteLine("Proba 6 8 este");
+            Console.WriteLine(service.findOneByDenumireVarsta("desen",6,8));
+            
+             
+            foreach (Participant t in service.getTotiParticipantii())
+            {
+                Console.WriteLine(t);
+            }
+
+            foreach (Proba t in service.getToateProbele())
+            {
+                Console.WriteLine(t);
+            }
+
+            Proba _proba = probaDbRepository.FindOne(1L);
+                
+                Console.WriteLine("Participantii de la proba 1: ");
+                foreach (Participant a in service.getParticipantiProbaVarsta(_proba))
+                {
+                    Console.WriteLine(a);
+                }
+               
+                Console.WriteLine(service.getNrInscrisiProba(_proba));
+
+                Participant participant5 = participantDbRepository.FindOne(8l);
+                Proba proba5 = probaDbRepository.FindOne(2l);
+                Inscriere inscriere = new Inscriere(participant5, proba5);
+               // service.addInscriere(participant5.Nume,participant5.Prenume,participant5.Varsta,proba5);
+               Participant participantNexistent = new Participant("Popa", "Traian", 15);
+               Inscriere inscriere6 = new Inscriere(participantNexistent, proba5);
+             //  service.addInscriere(participantNexistent.Nume,participantNexistent.Prenume,participantNexistent.Varsta,proba5);
+               
+               Console.WriteLine("DTO-URILE");
+               foreach (ProbaDTO t in service.getToateProbeleDTO())
+               {
+                   Console.WriteLine(t);
+               }
+               
         }
     }
 }

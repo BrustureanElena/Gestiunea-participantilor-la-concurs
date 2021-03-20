@@ -38,9 +38,10 @@ public class ParticipantiDBRepository implements  ParticipantRepository {
             preStmt.setString(2, elem.getPrenume());
             preStmt.setInt(3,elem.getVarsta());
             int result = preStmt.executeUpdate();
-            logger.traceEntry("Saved {} instances",result);
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+            logger.trace("Saved {} instances",result);
+        } catch (SQLException e) {
+            logger.error(e);
+            System.err.print("Error DB "+e);
         }
         logger.traceExit();
 
@@ -73,12 +74,18 @@ public class ParticipantiDBRepository implements  ParticipantRepository {
                     participants.add(participant);
                 }
             }
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        } catch (SQLException e) {
+            logger.error(e);
+            System.err.print("Error DB "+e);
         }
         logger.traceExit(participants);
         //conn.close();
         return participants;
+
+    }
+
+    @Override
+    public void update(Participant elem, Long aLong) {
 
     }
 
@@ -104,8 +111,9 @@ public class ParticipantiDBRepository implements  ParticipantRepository {
 
 
             }
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        } catch (SQLException e) {
+            logger.error(e);
+            System.err.print("Error DB "+e);
         }
         logger.traceExit(participant);
         //conn.close();

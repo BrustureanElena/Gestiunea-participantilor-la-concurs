@@ -37,9 +37,11 @@ public class ProbaDBRepository implements  ProbaRepository{
             preStmt.setInt(2, elem.getVarstaMin());
             preStmt.setInt(3,elem.getVarstaMax());
             int result = preStmt.executeUpdate();
-            logger.traceEntry("Saved {} instances",result);
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+            logger.trace("Saved {} instances",result);
+
+        } catch (SQLException e) {
+            logger.error(e);
+            System.err.print("Error DB "+e);
         }
         logger.traceExit();
     }
@@ -65,15 +67,36 @@ public class ProbaDBRepository implements  ProbaRepository{
                     probe.add(proba);
                 }
             }
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        } catch (SQLException e) {
+            logger.error(e);
+            System.err.print("Error DB "+e);
         }
         logger.traceExit(probe);
         //conn.close();
         return probe;
 
     }
-   @Override
+
+    @Override
+    public void update(Proba elem, Long aLong) {
+
+        logger.traceEntry("updating request {} ",elem);
+        Connection con=dbUtils.getConnection();
+        try(PreparedStatement preStmt=con.prepareStatement("update \"Probe\" set nrParticipanti=? where id=?")){
+
+         //   preStmt.setInt(1,elem.getNrParticipanti());
+            preStmt.setLong(2,elem.getId());
+            int result=preStmt.executeUpdate();
+            logger.trace("Updated {} instances",result);
+
+        }catch (SQLException ex){
+            logger.error(ex);
+            System.err.println("Error DB "+ex);
+        }
+        logger.traceExit();
+    }
+
+    @Override
     public Iterable<Proba> findAllByDenumire(String denumire1) {
 
         logger.traceEntry();
@@ -95,8 +118,9 @@ public class ProbaDBRepository implements  ProbaRepository{
                     probe.add(proba);
                 }
             }
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        } catch (SQLException e) {
+            logger.error(e);
+            System.err.print("Error DB "+e);
         }
         logger.traceExit(probe);
         //conn.close();
@@ -128,34 +152,42 @@ public class ProbaDBRepository implements  ProbaRepository{
 
                 }
             }
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        } catch (SQLException e) {
+            logger.error(e);
+            System.err.print("Error DB "+e);
         }
         logger.traceExit(proba);
         //conn.close();
         return proba;
 
     }
-   @Override
-    public Proba findOneByDenumire(String denumire1) {
+
+
+
+
+    @Override
+    public Proba findOneByDenumireVarsta(String denumireDat, int varstaMinDat, int varstaMaxDat) {
         logger.traceEntry();
         Connection conn = dbUtils.getConnection();
 
         System.out.println(conn);
 
-        Participant participant=null;
+
         Proba proba=null;
-        try (PreparedStatement preparedStatement = conn.prepareStatement("select * from \"Probe\" where denumire='" + denumire1+"'" )) {
+        try (PreparedStatement preparedStatement = conn.prepareStatement( "select * from \"Probe\" where denumire='"+denumireDat+"' and varstaMin='"+varstaMinDat+"'")) {
             try (ResultSet resultSet = preparedStatement.executeQuery()) {
                 while (resultSet.next()) {
                     Long id = resultSet.getLong("id");
-                    String denumire = resultSet.getString("denumire");
+                    String denumire1 = resultSet.getString("denumire");
 
-                    int varstaMin = resultSet.getInt("varstaMin");
-                    int varstaMax = resultSet.getInt("varstaMax");
-                    proba =new Proba(denumire,varstaMin,varstaMax);
 
+                    int varstaMin1 = resultSet.getInt("varstaMin");
+                    int varstaMax1 = resultSet.getInt("varstaMax");
+
+
+                    proba=new Proba(denumire1,varstaMin1,varstaMax1);
                     proba.setId(id);
+
 
                 }
             }
@@ -165,11 +197,7 @@ public class ProbaDBRepository implements  ProbaRepository{
         logger.traceExit(proba);
         //conn.close();
         return proba;
-
     }
-
-
-
 
 
 

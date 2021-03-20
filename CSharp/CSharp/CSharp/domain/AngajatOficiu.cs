@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace CSharp.domain
 {
-     class AngajatOficiu : Entity<long>
+    public class AngajatOficiu : Entity<long>
     { 
         public  long Id { get; set; }
-        private String Username { get; set; }
-        private String Parola { get; set; }
+        public String Username { get; set; }
+        public String Parola { get; set; }
 
-        private AngajatOficiu(String Username, String Parola)
+        public AngajatOficiu(String username, String parola)
         {
-            Username = Username;
-            Parola = Parola;
+            Username = username;
+            Parola = parola;
         }
         public AngajatOficiu()
         { }
@@ -37,9 +37,10 @@ namespace CSharp.domain
 
         public override string ToString()
         {
-            return base.ToString();
+            return string.Format("[Angajat: Id={0}, Username={1},Parola={2}]", Id, Username, Parola);
         }
-        
-     
+
+
+   
     }
 }

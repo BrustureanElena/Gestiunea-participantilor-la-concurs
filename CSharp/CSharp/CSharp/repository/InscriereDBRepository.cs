@@ -78,7 +78,7 @@ namespace CSharp.repository
             return inscrieri;
 
 
-            return null;
+            
         }
     }
 }

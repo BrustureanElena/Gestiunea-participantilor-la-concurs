@@ -7,6 +7,6 @@ import concurs.domain.Proba;
 import java.util.List;
 
 public interface InscriereRepository extends CrudRepository<Long, Inscriere> {
-    public Iterable<Inscriere> findAll();
+  //  public Iterable<Inscriere> findAll();
 
 }

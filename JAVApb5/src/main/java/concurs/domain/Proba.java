@@ -9,6 +9,7 @@ public class Proba  implements Entity<Long>{
     private int varstaMin;
     private int varstaMax;
 
+
     public Proba(String denumire,  int varstaMin, int varstaMax) {
         this.denumire = denumire;
 
@@ -23,6 +24,7 @@ public class Proba  implements Entity<Long>{
     public void setDenumire(String denumire) {
         this.denumire = denumire;
     }
+
 
 
 

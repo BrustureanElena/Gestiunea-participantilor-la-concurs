@@ -134,32 +134,40 @@ namespace CSharp.repository
             log.InfoFormat("Exiting findOne with value {0}", null);
             return null;
         }
-// DE ASTA NU AM NEVOIE, DE STERS!!!
-        public Proba findOneByDenumire(string denumire)
+
+        //de revazut
+        public Proba findOneByDenumireVarsta(string denumire, int varstaMin, int varstaMax)
         {
-         
-            log.InfoFormat("Entering findOne with value {0}", denumire);
+            log.InfoFormat("Entering findOne with value {0}{1}{2}", denumire,varstaMin,varstaMax);
             IDbConnection con = DBUtils.getConnection();
 
             using (var comm = con.CreateCommand())
             {
-                comm.CommandText = "select * from Probe where denumire=@denumire";
+                comm.CommandText = "select * from Probe where denumire=@denumire and varstaMin=@varstaMin";
                 IDbDataParameter paramId = comm.CreateParameter();
+                IDbDataParameter paramId2 = comm.CreateParameter();
+                IDbDataParameter paramId3 = comm.CreateParameter();
                 paramId.ParameterName = "@denumire";
                 paramId.Value = denumire;
+                paramId2.ParameterName = "@varstaMin";
+                paramId2.Value = varstaMin;
+                paramId3.ParameterName = "@varstaMax";
+                paramId3.Value = varstaMax;
                 comm.Parameters.Add(paramId);
+                comm.Parameters.Add(paramId2);
+                comm.Parameters.Add(paramId3);
 
                 using (var dataR = comm.ExecuteReader())
                 {
                     if (dataR.Read())
                     {
                         int idP = dataR.GetInt32(0);
-                        String denumire2 = dataR.GetString(1);
+                        String denumire1 = dataR.GetString(1);
                      
-                        int varstaMin = dataR.GetInt32(2);
-                        int varstaMax = dataR.GetInt32(3);
+                        int varstaMin1 = dataR.GetInt32(2);
+                        int varstaMax1 = dataR.GetInt32(3);
 
-                        Proba proba = new Proba(denumire2, varstaMin, varstaMax);
+                        Proba proba = new Proba(denumire1, varstaMin1, varstaMax1);
                        
                         proba.Id = idP;
                         
@@ -168,7 +176,7 @@ namespace CSharp.repository
                     }
                 }
             }
-            log.InfoFormat("Exiting findOne with value {0}", null);
+            log.InfoFormat("Exiting findOne with value {0}{1}{2}", null);
             return null;
         }
     }

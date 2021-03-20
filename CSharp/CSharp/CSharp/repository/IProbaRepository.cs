@@ -13,6 +13,6 @@ namespace CSharp.repository
 
         Proba FindOne(long aLong);
 
-      Proba findOneByDenumire(String denumire1);
+       Proba findOneByDenumireVarsta(String denumire, int varstaMin, int varstaMax);
     }
 }
