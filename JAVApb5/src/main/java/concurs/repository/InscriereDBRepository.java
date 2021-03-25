@@ -18,13 +18,13 @@ import java.util.Properties;
 public class InscriereDBRepository implements  InscriereRepository  {
 
     private JdbcUtils dbUtils;
-    private ProbaDBRepository probaDBRepository;
-    private ParticipantiDBRepository participantiDBRepository;
+    private ProbaRepository probaDBRepository;
+    private ParticipantRepository participantiDBRepository;
 
     private static final Logger logger= LogManager.getLogger();
 
-    public InscriereDBRepository(Properties props,ParticipantiDBRepository participantiDBRepository,
-                                 ProbaDBRepository probaDBRepository) {
+    public InscriereDBRepository(Properties props,ParticipantRepository participantiDBRepository,
+                                 ProbaRepository probaDBRepository) {
         this.participantiDBRepository=participantiDBRepository;
         this.probaDBRepository=probaDBRepository;
 

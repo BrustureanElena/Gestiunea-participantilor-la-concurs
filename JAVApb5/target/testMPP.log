@@ -2497,3 +2497,287 @@
 19 Mar 2021 22:16:21,469 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
 19 Mar 2021 22:16:21,470 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
 19 Mar 2021 22:16:54,201 ERROR concurs.repository.InscriereDBRepository 51 add - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_UNIQUE]  A UNIQUE constraint failed (UNIQUE constraint failed: Inscrieri.idParticipant, Inscrieri.idProba)
+21 Mar 2021 19:38:43,897 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:38:43,916 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:38:43,920 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:38:43,924 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:38:51,627 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:38:51,628 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:38:51,628 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:39:01,094 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:39:01,095 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:39:01,095 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:39:01,104 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:39:01,107 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:39:01,109 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:42:42,795 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:42:42,813 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:42:42,817 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:42:42,820 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:42:49,584 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:42:49,585 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:42:49,585 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:42:50,130 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:42:50,132 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:42:50,132 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:42:50,149 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:42:50,152 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:42:50,154 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:44:36,944 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:44:36,953 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:44:36,956 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:44:36,960 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:44:46,925 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:44:46,934 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:44:46,938 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:44:46,941 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:44:51,958 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:44:51,959 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:44:51,960 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:44:52,446 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:44:52,447 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:44:52,448 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:44:52,454 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:44:52,455 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:44:52,456 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:45:48,536 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:45:48,537 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:45:48,537 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:47:17,834 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:47:17,843 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:47:17,846 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:47:17,849 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:47:23,141 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:47:23,141 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:47:23,142 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:47:23,650 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:47:23,651 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:47:23,651 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:47:23,664 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:47:23,666 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:47:23,677 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:48:55,346 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:48:55,355 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:48:55,359 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:48:55,362 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:49:10,787 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:49:10,788 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:49:10,788 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:49:11,178 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:49:11,178 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:49:11,179 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:49:11,184 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:49:11,185 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:49:11,185 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:49:23,298 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:49:23,299 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:49:23,299 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:50:10,089 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:50:10,099 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:50:10,102 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:50:10,105 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+21 Mar 2021 19:50:15,106 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:50:15,107 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:50:15,107 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:50:15,525 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:50:15,525 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:50:15,526 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:50:15,531 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:50:15,534 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:50:15,535 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+21 Mar 2021 19:50:52,466 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+21 Mar 2021 19:50:52,466 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+21 Mar 2021 19:50:52,467 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 07:50:49,655 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 07:50:49,668 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 07:50:49,673 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 07:50:49,676 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 08:45:40,516 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 08:45:40,525 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 08:45:40,528 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 08:45:40,530 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 08:45:49,910 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 08:45:49,911 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 08:45:49,912 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 08:45:50,610 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 08:45:50,611 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 08:45:50,612 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 08:45:50,619 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 08:45:50,620 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 08:45:50,621 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 09:20:58,367 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 09:20:58,379 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 09:20:58,389 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 09:20:58,395 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 09:21:04,076 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 09:21:04,077 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 09:21:04,078 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 09:21:04,740 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 09:21:04,743 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 09:21:04,743 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 09:21:04,769 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 09:21:04,771 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 09:21:04,772 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 09:22:03,606 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 09:22:03,607 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 09:22:03,607 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 09:28:34,415 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 09:28:34,424 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 09:28:34,427 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 09:28:34,431 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 09:28:40,231 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 09:28:40,231 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 09:28:40,232 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 09:28:40,672 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 09:28:40,676 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 09:28:40,677 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 09:28:40,684 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 09:28:40,686 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 09:28:40,686 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 10:06:09,645 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 10:06:09,655 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 10:06:09,659 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 10:06:09,662 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 10:06:15,395 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 10:06:15,396 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 10:06:15,397 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 10:06:15,875 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 10:06:15,876 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 10:06:15,876 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 10:06:15,884 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 10:06:15,884 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 10:06:15,885 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 10:19:43,317 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 10:19:43,330 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 10:19:43,336 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 10:19:43,343 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 10:19:50,081 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 10:19:50,082 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 10:19:50,083 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 10:19:50,805 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 10:19:50,807 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 10:19:50,808 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 10:19:50,825 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 10:19:50,826 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 10:19:50,827 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:33:56,585 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:33:56,594 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:33:56,597 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:33:56,601 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:39:29,907 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:39:29,918 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:39:29,922 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:39:29,925 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:39:36,167 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:39:36,168 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:39:36,169 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:39:36,808 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:39:36,813 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:39:36,815 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:39:36,828 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:39:36,829 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:39:36,831 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:40:16,692 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:40:16,700 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:40:16,704 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:40:16,707 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:40:22,087 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:40:22,088 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:40:22,088 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:40:22,788 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:40:22,789 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:40:22,789 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:40:22,795 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:40:22,796 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:40:22,796 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:42:06,631 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:42:06,642 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:42:06,646 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:42:06,649 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:42:11,934 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:42:11,935 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:42:11,935 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:42:12,630 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:42:12,631 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:42:12,632 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:42:12,640 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:42:12,640 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:42:12,641 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:42:52,555 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:42:52,562 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:42:52,565 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:42:52,568 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:42:58,413 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:42:58,414 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:42:58,414 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:42:59,007 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:42:59,008 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:42:59,014 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:42:59,030 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:42:59,032 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:42:59,033 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:43:11,946 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:43:11,946 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:43:11,947 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:46:42,270 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:46:42,279 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:46:42,281 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:46:42,284 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:46:47,371 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:46:47,372 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:46:47,373 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:46:47,847 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:46:47,848 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:46:47,849 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:46:47,854 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:46:47,855 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:46:47,856 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:53:25,677 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:53:25,685 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:53:25,688 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:53:25,691 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:53:31,326 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:53:31,326 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:53:31,327 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:53:32,057 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:53:32,058 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:53:32,058 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:53:32,066 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:53:32,067 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:53:32,068 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:53:52,342 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:53:52,343 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:53:52,343 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:55:23,018 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:55:23,037 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:55:23,040 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:55:23,043 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:55:28,596 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:55:28,597 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:55:28,597 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:55:29,060 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:55:29,061 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:55:29,062 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:55:29,074 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:55:29,076 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:55:29,077 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:55:42,361 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+22 Mar 2021 11:55:42,362 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+22 Mar 2021 11:55:42,362 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+22 Mar 2021 11:56:47,958 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:56:47,967 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:56:47,970 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+22 Mar 2021 11:56:47,973 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+25 Mar 2021 10:04:53,333 INFO  concurs.repository.AngajatiOficiuDBRepository 22 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+25 Mar 2021 10:04:53,351 INFO  concurs.repository.ParticipantiDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+25 Mar 2021 10:04:53,354 INFO  concurs.repository.ProbaDBRepository 24 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+25 Mar 2021 10:04:53,357 INFO  concurs.repository.InscriereDBRepository 31 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db} 
+25 Mar 2021 10:05:01,672 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+25 Mar 2021 10:05:01,672 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+25 Mar 2021 10:05:01,673 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+25 Mar 2021 10:05:02,260 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+25 Mar 2021 10:05:02,262 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+25 Mar 2021 10:05:02,263 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null
+25 Mar 2021 10:05:02,272 INFO  concurs.utils.JdbcUtils 31 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/User/Desktop/MPPLab/laborator/mpp-proiect-repository-BrustureanElena/CSharp/CSharp/CSharp/bin/Debug/Concurs.db
+25 Mar 2021 10:05:02,273 INFO  concurs.utils.JdbcUtils 32 getNewConnection - user: null
+25 Mar 2021 10:05:02,275 INFO  concurs.utils.JdbcUtils 33 getNewConnection - pass: null

@@ -31,30 +31,24 @@
             this.button1 = new System.Windows.Forms.Button();
             this.tabInscrieri = new System.Windows.Forms.TabControl();
             this.tabProba = new System.Windows.Forms.TabPage();
-            this.tabInscriere = new System.Windows.Forms.TabPage();
-            this.tableProbe = new System.Windows.Forms.DataGridView();
-            this.tableParticipanti = new System.Windows.Forms.DataGridView();
             this.buttonCauta = new System.Windows.Forms.Button();
-            this.labelNume = new System.Windows.Forms.Label();
-            this.labelPrenume = new System.Windows.Forms.Label();
-            this.labelVarsta = new System.Windows.Forms.Label();
-            this.labelProba1 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.buttonAdaugaInscriere = new System.Windows.Forms.Button();
-            this.textBoxNume = new System.Windows.Forms.TextBox();
-            this.textBoxPrenume = new System.Windows.Forms.TextBox();
+            this.tableParticipanti = new System.Windows.Forms.DataGridView();
+            this.tableProbe = new System.Windows.Forms.DataGridView();
+            this.tabInscriere = new System.Windows.Forms.TabPage();
             this.textBoxVarsta = new System.Windows.Forms.TextBox();
-            this.textBoxProba1 = new System.Windows.Forms.TextBox();
-            this.textBoxVarstaMin = new System.Windows.Forms.TextBox();
-            this.textBoxVarstaMax = new System.Windows.Forms.TextBox();
-            this.textBoxProba2 = new System.Windows.Forms.TextBox();
+            this.textBoxPrenume = new System.Windows.Forms.TextBox();
+            this.textBoxNume = new System.Windows.Forms.TextBox();
+            this.buttonAdaugaInscriere = new System.Windows.Forms.Button();
+            this.labelVarsta = new System.Windows.Forms.Label();
+            this.labelPrenume = new System.Windows.Forms.Label();
+            this.labelNume = new System.Windows.Forms.Label();
+            this.tableProbePtInscriere = new System.Windows.Forms.DataGridView();
             this.tabInscrieri.SuspendLayout();
             this.tabProba.SuspendLayout();
-            this.tabInscriere.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tableProbe)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableParticipanti)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tableProbe)).BeginInit();
+            this.tabInscriere.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tableProbePtInscriere)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -90,20 +84,40 @@
             this.tabProba.Text = "tabProbe";
             this.tabProba.UseVisualStyleBackColor = true;
             // 
+            // buttonCauta
+            // 
+            this.buttonCauta.Location = new System.Drawing.Point(314, 6);
+            this.buttonCauta.Name = "buttonCauta";
+            this.buttonCauta.Size = new System.Drawing.Size(75, 23);
+            this.buttonCauta.TabIndex = 2;
+            this.buttonCauta.Text = "Cauta";
+            this.buttonCauta.UseVisualStyleBackColor = true;
+            this.buttonCauta.Click += new System.EventHandler(this.buttonCauta_Click);
+            // 
+            // tableParticipanti
+            // 
+            this.tableParticipanti.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tableParticipanti.Location = new System.Drawing.Point(395, 30);
+            this.tableParticipanti.Name = "tableParticipanti";
+            this.tableParticipanti.Size = new System.Drawing.Size(284, 319);
+            this.tableParticipanti.TabIndex = 1;
+            // 
+            // tableProbe
+            // 
+            this.tableProbe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tableProbe.Location = new System.Drawing.Point(25, 30);
+            this.tableProbe.Name = "tableProbe";
+            this.tableProbe.Size = new System.Drawing.Size(327, 319);
+            this.tableProbe.TabIndex = 0;
+            this.tableProbe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tableProbe_CellContentClick);
+            // 
             // tabInscriere
             // 
-            this.tabInscriere.Controls.Add(this.textBoxProba2);
-            this.tabInscriere.Controls.Add(this.textBoxVarstaMax);
-            this.tabInscriere.Controls.Add(this.textBoxVarstaMin);
-            this.tabInscriere.Controls.Add(this.textBoxProba1);
+            this.tabInscriere.Controls.Add(this.tableProbePtInscriere);
             this.tabInscriere.Controls.Add(this.textBoxVarsta);
             this.tabInscriere.Controls.Add(this.textBoxPrenume);
             this.tabInscriere.Controls.Add(this.textBoxNume);
             this.tabInscriere.Controls.Add(this.buttonAdaugaInscriere);
-            this.tabInscriere.Controls.Add(this.label3);
-            this.tabInscriere.Controls.Add(this.label2);
-            this.tabInscriere.Controls.Add(this.label1);
-            this.tabInscriere.Controls.Add(this.labelProba1);
             this.tabInscriere.Controls.Add(this.labelVarsta);
             this.tabInscriere.Controls.Add(this.labelPrenume);
             this.tabInscriere.Controls.Add(this.labelNume);
@@ -116,99 +130,30 @@
             this.tabInscriere.UseVisualStyleBackColor = true;
             this.tabInscriere.Click += new System.EventHandler(this.tabInscriere_Click);
             // 
-            // tableProbe
+            // textBoxVarsta
             // 
-            this.tableProbe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tableProbe.Location = new System.Drawing.Point(25, 30);
-            this.tableProbe.Name = "tableProbe";
-            this.tableProbe.Size = new System.Drawing.Size(256, 319);
-            this.tableProbe.TabIndex = 0;
-            this.tableProbe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tableProbe_CellContentClick);
+            this.textBoxVarsta.Location = new System.Drawing.Point(437, 221);
+            this.textBoxVarsta.Name = "textBoxVarsta";
+            this.textBoxVarsta.Size = new System.Drawing.Size(100, 20);
+            this.textBoxVarsta.TabIndex = 10;
             // 
-            // tableParticipanti
+            // textBoxPrenume
             // 
-            this.tableParticipanti.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tableParticipanti.Location = new System.Drawing.Point(395, 30);
-            this.tableParticipanti.Name = "tableParticipanti";
-            this.tableParticipanti.Size = new System.Drawing.Size(284, 319);
-            this.tableParticipanti.TabIndex = 1;
+            this.textBoxPrenume.Location = new System.Drawing.Point(437, 175);
+            this.textBoxPrenume.Name = "textBoxPrenume";
+            this.textBoxPrenume.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPrenume.TabIndex = 9;
             // 
-            // buttonCauta
+            // textBoxNume
             // 
-            this.buttonCauta.Location = new System.Drawing.Point(307, 30);
-            this.buttonCauta.Name = "buttonCauta";
-            this.buttonCauta.Size = new System.Drawing.Size(75, 23);
-            this.buttonCauta.TabIndex = 2;
-            this.buttonCauta.Text = "Cauta";
-            this.buttonCauta.UseVisualStyleBackColor = true;
-            this.buttonCauta.Click += new System.EventHandler(this.buttonCauta_Click);
-            // 
-            // labelNume
-            // 
-            this.labelNume.AutoSize = true;
-            this.labelNume.Location = new System.Drawing.Point(224, 48);
-            this.labelNume.Name = "labelNume";
-            this.labelNume.Size = new System.Drawing.Size(35, 13);
-            this.labelNume.TabIndex = 0;
-            this.labelNume.Text = "Nume";
-            // 
-            // labelPrenume
-            // 
-            this.labelPrenume.AutoSize = true;
-            this.labelPrenume.Location = new System.Drawing.Point(218, 80);
-            this.labelPrenume.Name = "labelPrenume";
-            this.labelPrenume.Size = new System.Drawing.Size(49, 13);
-            this.labelPrenume.TabIndex = 1;
-            this.labelPrenume.Text = "Prenume";
-            // 
-            // labelVarsta
-            // 
-            this.labelVarsta.AutoSize = true;
-            this.labelVarsta.Location = new System.Drawing.Point(222, 114);
-            this.labelVarsta.Name = "labelVarsta";
-            this.labelVarsta.Size = new System.Drawing.Size(37, 13);
-            this.labelVarsta.TabIndex = 2;
-            this.labelVarsta.Text = "Varsta";
-            // 
-            // labelProba1
-            // 
-            this.labelProba1.AutoSize = true;
-            this.labelProba1.Location = new System.Drawing.Point(218, 144);
-            this.labelProba1.Name = "labelProba1";
-            this.labelProba1.Size = new System.Drawing.Size(41, 13);
-            this.labelProba1.TabIndex = 3;
-            this.labelProba1.Text = "Proba1";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(218, 180);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "varstaMinima";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(215, 206);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "varstaMaxima";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(227, 234);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Proba2";
+            this.textBoxNume.Location = new System.Drawing.Point(437, 129);
+            this.textBoxNume.Name = "textBoxNume";
+            this.textBoxNume.Size = new System.Drawing.Size(100, 20);
+            this.textBoxNume.TabIndex = 8;
             // 
             // buttonAdaugaInscriere
             // 
-            this.buttonAdaugaInscriere.Location = new System.Drawing.Point(316, 270);
+            this.buttonAdaugaInscriere.Location = new System.Drawing.Point(382, 271);
             this.buttonAdaugaInscriere.Name = "buttonAdaugaInscriere";
             this.buttonAdaugaInscriere.Size = new System.Drawing.Size(139, 37);
             this.buttonAdaugaInscriere.TabIndex = 7;
@@ -216,54 +161,40 @@
             this.buttonAdaugaInscriere.UseVisualStyleBackColor = true;
             this.buttonAdaugaInscriere.Click += new System.EventHandler(this.buttonAdaugaInscriere_Click);
             // 
-            // textBoxNume
+            // labelVarsta
             // 
-            this.textBoxNume.Location = new System.Drawing.Point(316, 48);
-            this.textBoxNume.Name = "textBoxNume";
-            this.textBoxNume.Size = new System.Drawing.Size(100, 20);
-            this.textBoxNume.TabIndex = 8;
+            this.labelVarsta.AutoSize = true;
+            this.labelVarsta.Location = new System.Drawing.Point(365, 221);
+            this.labelVarsta.Name = "labelVarsta";
+            this.labelVarsta.Size = new System.Drawing.Size(37, 13);
+            this.labelVarsta.TabIndex = 2;
+            this.labelVarsta.Text = "Varsta";
             // 
-            // textBoxPrenume
+            // labelPrenume
             // 
-            this.textBoxPrenume.Location = new System.Drawing.Point(316, 77);
-            this.textBoxPrenume.Name = "textBoxPrenume";
-            this.textBoxPrenume.Size = new System.Drawing.Size(100, 20);
-            this.textBoxPrenume.TabIndex = 9;
+            this.labelPrenume.AutoSize = true;
+            this.labelPrenume.Location = new System.Drawing.Point(353, 175);
+            this.labelPrenume.Name = "labelPrenume";
+            this.labelPrenume.Size = new System.Drawing.Size(49, 13);
+            this.labelPrenume.TabIndex = 1;
+            this.labelPrenume.Text = "Prenume";
             // 
-            // textBoxVarsta
+            // labelNume
             // 
-            this.textBoxVarsta.Location = new System.Drawing.Point(316, 111);
-            this.textBoxVarsta.Name = "textBoxVarsta";
-            this.textBoxVarsta.Size = new System.Drawing.Size(100, 20);
-            this.textBoxVarsta.TabIndex = 10;
+            this.labelNume.AutoSize = true;
+            this.labelNume.Location = new System.Drawing.Point(365, 132);
+            this.labelNume.Name = "labelNume";
+            this.labelNume.Size = new System.Drawing.Size(35, 13);
+            this.labelNume.TabIndex = 0;
+            this.labelNume.Text = "Nume";
             // 
-            // textBoxProba1
+            // tableProbePtInscriere
             // 
-            this.textBoxProba1.Location = new System.Drawing.Point(316, 141);
-            this.textBoxProba1.Name = "textBoxProba1";
-            this.textBoxProba1.Size = new System.Drawing.Size(100, 20);
-            this.textBoxProba1.TabIndex = 11;
-            // 
-            // textBoxVarstaMin
-            // 
-            this.textBoxVarstaMin.Location = new System.Drawing.Point(316, 180);
-            this.textBoxVarstaMin.Name = "textBoxVarstaMin";
-            this.textBoxVarstaMin.Size = new System.Drawing.Size(100, 20);
-            this.textBoxVarstaMin.TabIndex = 12;
-            // 
-            // textBoxVarstaMax
-            // 
-            this.textBoxVarstaMax.Location = new System.Drawing.Point(316, 207);
-            this.textBoxVarstaMax.Name = "textBoxVarstaMax";
-            this.textBoxVarstaMax.Size = new System.Drawing.Size(100, 20);
-            this.textBoxVarstaMax.TabIndex = 13;
-            // 
-            // textBoxProba2
-            // 
-            this.textBoxProba2.Location = new System.Drawing.Point(316, 234);
-            this.textBoxProba2.Name = "textBoxProba2";
-            this.textBoxProba2.Size = new System.Drawing.Size(100, 20);
-            this.textBoxProba2.TabIndex = 14;
+            this.tableProbePtInscriere.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tableProbePtInscriere.Location = new System.Drawing.Point(29, 55);
+            this.tableProbePtInscriere.Name = "tableProbePtInscriere";
+            this.tableProbePtInscriere.Size = new System.Drawing.Size(293, 253);
+            this.tableProbePtInscriere.TabIndex = 11;
             // 
             // MainForm
             // 
@@ -277,10 +208,11 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.tabInscrieri.ResumeLayout(false);
             this.tabProba.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tableParticipanti)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tableProbe)).EndInit();
             this.tabInscriere.ResumeLayout(false);
             this.tabInscriere.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tableProbe)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tableParticipanti)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tableProbePtInscriere)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -298,16 +230,9 @@
         private System.Windows.Forms.TextBox textBoxPrenume;
         private System.Windows.Forms.TextBox textBoxNume;
         private System.Windows.Forms.Button buttonAdaugaInscriere;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label labelProba1;
         private System.Windows.Forms.Label labelVarsta;
         private System.Windows.Forms.Label labelPrenume;
         private System.Windows.Forms.Label labelNume;
-        private System.Windows.Forms.TextBox textBoxProba2;
-        private System.Windows.Forms.TextBox textBoxVarstaMax;
-        private System.Windows.Forms.TextBox textBoxVarstaMin;
-        private System.Windows.Forms.TextBox textBoxProba1;
+        private System.Windows.Forms.DataGridView tableProbePtInscriere;
     }
 }

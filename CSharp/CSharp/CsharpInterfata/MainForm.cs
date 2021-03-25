@@ -23,6 +23,7 @@ namespace CsharpInterfata
             Service = service;
             loginCtr = loginCtrLLL;
             tabProba.Controls.Add(tableProbe);
+            tabInscriere.Controls.Add(tableProbePtInscriere);
             tabProba.Controls.Add(tableParticipanti);
             tabProba.Controls.Add(buttonCauta);
        
@@ -32,6 +33,7 @@ namespace CsharpInterfata
         private void MainForm_Load(object sender, EventArgs e)
         {
             tableProbe.DataSource = Service.getToateProbeleDTO();
+            tableProbePtInscriere.DataSource = Service.getToateProbele();
             tableProbe.AutoGenerateColumns = true;
         }
 
@@ -51,34 +53,43 @@ namespace CsharpInterfata
                 string varstaParticipantS = textBoxVarsta.Text;
                 int varstaParticipant = Convert.ToInt32(varstaParticipantS);
 
-                string denumireProba1 = textBoxProba1.Text;
-                string denumireProba2 = textBoxProba2.Text;
-                string varstaMinS = textBoxVarstaMin.Text;
-                string varstaMaxS = textBoxVarstaMax.Text;
+                DataGridViewRow row = tableProbePtInscriere.SelectedRows[0];
+                string idS = row.Cells[0].Value.ToString();
+                string denumire = row.Cells[1].Value.ToString();
+                string varstaMinS = row.Cells[2].Value.ToString();
+                string varstaMaxS = row.Cells[3].Value.ToString();
                 int varstaMin = Convert.ToInt32(varstaMinS);
                 int varstaMax = Convert.ToInt32(varstaMaxS);
                 //  Proba proba = new Proba(denumire, varstaMin, varstaMax);
-             //  if(!denumireProba1.Equals(""))
+                Proba probaGasita = Service.findOneByDenumireVarsta(denumire, varstaMin, varstaMax);
+               
+                if (numeParticipant.Equals("") || prenumeParticipant.Equals(""))
+                {
+                    MessageBox.Show("Nume sau prenume invalid! ", "No", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                if (probaGasita == null)
+                {
+                    MessageBox.Show("Probe invalide", "No", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
 
-                Proba probaGasita = Service.findOneByDenumireVarsta(denumireProba1, varstaMin, varstaMax);
-                if (probaGasita != null)
-                    Service.addInscriere(numeParticipant, prenumeParticipant, varstaParticipant, probaGasita);
+                else
+                {
+                    if (probaGasita != null)
 
-                Proba probaGasita2 = Service.findOneByDenumireVarsta(denumireProba2, varstaMin, varstaMax);
-                if (probaGasita2 != null)
-                    Service.addInscriere(numeParticipant, prenumeParticipant, varstaParticipant, probaGasita2);
-                    
-                tableProbe.Refresh();
-                tableProbe.DataSource = Service.getToateProbeleDTO();
-                tableProbe.AutoResizeColumns();
-                textBoxNume.Clear();
-                textBoxPrenume.Clear();
-                textBoxVarsta.Clear();
-                textBoxProba1.Clear();
-                textBoxProba2.Clear();
-                textBoxVarstaMin.Clear();
-                textBoxVarstaMax.Clear();
-                MessageBox.Show("Adaugat cu succes!", "Yey", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        Service.addInscriere(numeParticipant, prenumeParticipant, varstaParticipant, probaGasita);
+                   
+
+
+                    tableProbe.Refresh();
+                    tableProbe.DataSource = Service.getToateProbeleDTO();
+                    tableProbe.AutoResizeColumns();
+                    textBoxNume.Clear();
+                    textBoxPrenume.Clear();
+                    textBoxVarsta.Clear();
+              
+                    MessageBox.Show("Adaugat cu succes!", "Yey", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
             catch (MyException ex)
             {

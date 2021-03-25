@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharp.repository
 {
-    interface IProbaRepository: ICrudRepository<long,Proba>
+    public interface IProbaRepository: ICrudRepository<long,Proba>
     {
         List<Proba> findAllByDenumire(String denumire1);
 

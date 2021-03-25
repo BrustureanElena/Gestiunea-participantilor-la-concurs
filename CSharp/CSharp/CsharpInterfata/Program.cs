@@ -24,17 +24,17 @@ namespace CsharpInterfata
             XmlConfigurator.Configure(new System.IO.FileInfo("App.config"));
 
 
-            ParticipantDBRepository participantDbRepository = new ParticipantDBRepository();
-            ProbaDBRepository probaDbRepository = new ProbaDBRepository();
-            InscriereDBRepository inscriereDbRepository =
+            IParticipantRepository participantDbRepository = new ParticipantDBRepository();
+            IProbaRepository probaDbRepository = new ProbaDBRepository();
+            IInscriereRepository inscriereDbRepository =
                 new InscriereDBRepository(participantDbRepository, probaDbRepository);
-            AngajatOficiuDBRepository angajatOficiuDBRepository = new AngajatOficiuDBRepository();
+            IAngajatOficiuRepository angajatOficiuDBRepository = new AngajatOficiuDBRepository();
             Service service = new Service(participantDbRepository, probaDbRepository, inscriereDbRepository, angajatOficiuDBRepository);
 
             Console.WriteLine("Username beir:");
             Console.WriteLine(probaDbRepository.FindOne(1l));
             Console.WriteLine(angajatOficiuDBRepository.findOneByUsername("beir"));
-            Console.WriteLine(angajatOficiuDBRepository.FindOne(2l));
+            //Console.WriteLine(angajatOficiuDBRepository.FindOne(2l));
 
             Console.WriteLine("DTO-URILE");
             foreach (ProbaDTO t in service.getToateProbeleDTO())

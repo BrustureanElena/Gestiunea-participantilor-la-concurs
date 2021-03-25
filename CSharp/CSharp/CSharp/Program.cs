@@ -22,9 +22,9 @@ namespace CSharp
            XmlConfigurator.Configure(new System.IO.FileInfo(args[0]));
 
 
-            ParticipantDBRepository participantDbRepository = new ParticipantDBRepository();
-            ProbaDBRepository probaDbRepository = new ProbaDBRepository();
-            InscriereDBRepository inscriereDbRepository =
+            IParticipantRepository participantDbRepository = new ParticipantDBRepository();
+            IProbaRepository probaDbRepository = new ProbaDBRepository();
+            IInscriereRepository inscriereDbRepository =
                 new InscriereDBRepository(participantDbRepository, probaDbRepository);
          
            

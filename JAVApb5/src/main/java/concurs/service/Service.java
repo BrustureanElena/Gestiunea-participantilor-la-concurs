@@ -1,31 +1,34 @@
 package concurs.service;
 
 import concurs.domain.*;
-import concurs.repository.AngajatiOficiuDBRepository;
-import concurs.repository.InscriereDBRepository;
-import concurs.repository.ParticipantiDBRepository;
-import concurs.repository.ProbaDBRepository;
+import concurs.repository.*;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
 public class Service {
 
-
-
     private AngajatOficiu connectedUser;
-    private ParticipantiDBRepository participantiDBRepository;
-    private ProbaDBRepository probaDBRepository;
-    private InscriereDBRepository inscriereDBRepository;
-    private AngajatiOficiuDBRepository angajatiOficiuDBRepository;
+    private ParticipantRepository participantiDBRepository;
+    private ProbaRepository probaDBRepository;
+    private InscriereRepository inscriereDBRepository;
+    private AngajatOficiuRepository angajatiOficiuDBRepository;
 
-    public Service(ParticipantiDBRepository participantiDBRepository, ProbaDBRepository probaDBRepository, InscriereDBRepository inscriereDBRepository, AngajatiOficiuDBRepository angajatiOficiuDBRepository) {
+    public Service(ParticipantRepository participantiDBRepository, ProbaRepository probaDBRepository, InscriereRepository inscriereDBRepository, AngajatOficiuRepository angajatiOficiuDBRepository) {
         this.participantiDBRepository = participantiDBRepository;
         this.probaDBRepository = probaDBRepository;
         this.inscriereDBRepository = inscriereDBRepository;
         this.angajatiOficiuDBRepository = angajatiOficiuDBRepository;
     }
+
+    //public Service(ParticipantiDBRepository participantiDBRepository, ProbaDBRepository probaDBRepository, InscriereDBRepository inscriereDBRepository, AngajatiOficiuDBRepository angajatiOficiuDBRepository) {
+   //     this.participantiDBRepository = participantiDBRepository;
+   //     this.probaDBRepository = probaDBRepository;
+    //    this.inscriereDBRepository = inscriereDBRepository;
+    //    this.angajatiOficiuDBRepository = angajatiOficiuDBRepository;
+  //  }
 
 
     public Long addParticipant( String nume, String prenume, int varsta) {
@@ -95,7 +98,7 @@ public class Service {
     }
 
 
-    public Iterable<Participant>getTotiParticipantii() {
+    public Iterable<Participant>getTotiParticipantii() throws SQLException {
         return participantiDBRepository.findAll();
     }
 

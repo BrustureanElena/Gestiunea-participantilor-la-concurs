@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CSharp.repository
 {
-    interface IAngajatOficiuRepository:ICrudRepository<long,AngajatOficiu>
+  public   interface IAngajatOficiuRepository:ICrudRepository<long,AngajatOficiu>
     {
 
-         
+        AngajatOficiu findOneByUsername(string username);
     }
 }

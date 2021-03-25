@@ -9,14 +9,15 @@ namespace CSharp.service
     public class Service
     {
         private AngajatOficiu connectedUser;
-        private ParticipantDBRepository participantiDBRepository;
-        private ProbaDBRepository probaDBRepository;
-        private InscriereDBRepository inscriereDBRepository;
-        private AngajatOficiuDBRepository angajatiOficiuDBRepository;
+        private IParticipantRepository participantiDBRepository;
+        private IProbaRepository probaDBRepository;
+        private IInscriereRepository inscriereDBRepository;
+        private IAngajatOficiuRepository angajatiOficiuDBRepository;
+
 
         
         //aici trebuie si cu connectedUser?
-        public Service(ParticipantDBRepository participantiDbRepository, ProbaDBRepository probaDbRepository, InscriereDBRepository inscriereDbRepository, AngajatOficiuDBRepository angajatiOficiuDbRepository)
+        public Service(IParticipantRepository participantiDbRepository, IProbaRepository probaDbRepository, IInscriereRepository inscriereDbRepository, IAngajatOficiuRepository angajatiOficiuDbRepository)
         {
             participantiDBRepository = participantiDbRepository;
             probaDBRepository = probaDbRepository;

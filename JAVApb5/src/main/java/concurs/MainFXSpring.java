@@ -41,8 +41,6 @@ public class MainFXSpring extends Application {
 
 
 
-
-
         }catch(Exception e){
             MessageBox.showErrorMessage(null,e.getMessage());
 

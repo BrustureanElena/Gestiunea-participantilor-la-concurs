@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharp.repository
 {
-    interface IParticipantRepository: ICrudRepository<long,Participant>
+   public interface IParticipantRepository: ICrudRepository<long,Participant>
     {
         Participant FindOne(long id);
       int GetNrParticipantiProbaVarsta(Proba proba);

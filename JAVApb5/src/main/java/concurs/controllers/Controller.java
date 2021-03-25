@@ -7,9 +7,5 @@ public interface Controller {
     @FXML
     public void initialize();
 
-
-
-
-
     void setStage(Stage probeStage);
 }

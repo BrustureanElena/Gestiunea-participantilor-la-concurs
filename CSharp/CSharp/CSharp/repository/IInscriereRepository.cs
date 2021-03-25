@@ -3,7 +3,7 @@ using CSharp.domain;
 
 namespace CSharp.repository
 {
-    interface IInscriereRepository : ICrudRepository<long, Inscriere>
+   public interface IInscriereRepository : ICrudRepository<long, Inscriere>
     {
   
     }

@@ -33,10 +33,14 @@ public class ControllerPrincipal implements  Controller {
     Stage principalStage;
     Service service;
     ObservableList<ProbaDTO> modelProbe= FXCollections.observableArrayList();
+    ObservableList<Proba> modelProbePtInscriere= FXCollections.observableArrayList();
     ObservableList<Participant> modelParticipanti= FXCollections.observableArrayList();
 
     @FXML
    TableView<ProbaDTO> idTableProbe;
+    @FXML
+
+   TableView<Proba> idTableProbe2;
     @FXML
    TableView<Participant> idTableParticipanti;
     @FXML
@@ -68,6 +72,8 @@ public class ControllerPrincipal implements  Controller {
 
         modelProbe.setAll((Collection<? extends ProbaDTO>) this.service.getToateProbeleDTO());
 
+        modelProbePtInscriere.setAll((Collection<? extends Proba>) this.service.getToateProbele());
+        idTableProbe2.setItems(modelProbePtInscriere);
         idTableProbe.setItems(modelProbe);
 
     }
@@ -125,25 +131,34 @@ public class ControllerPrincipal implements  Controller {
 
     public void adaugaInscriere(ActionEvent actionEvent) throws Exception {
 
+
+        Proba probaSelectata=(Proba)idTableProbe2.getSelectionModel().getSelectedItem();
+
         String nume=textFieldNume.getText();
         String prenume=textFieldPrenume.getText();
         int varsta= Integer.parseInt(textFieldVarsta.getText());
-        String proba1=textFieldProba1Denumire.getText();
-        String proba2=textFiledProba2Denumire.getText();
-        int varstaMin= Integer.parseInt(textFieldVarstaMin.getText());
-        int varstaMax= Integer.parseInt(textFieldVarstaMax.getText());
-        Participant participantGasit=service.findOneByNumePrenume(nume,prenume);
-        Proba proba1Gasita=service.findOneByDenumireVarsta(proba1,varstaMin,varstaMax);
-        Proba proba2Gasita=service.findOneByDenumireVarsta(proba2,varstaMin,varstaMax);
-    //    if(participantGasit==null)
-          //  service.addParticipant(nume,prenume,varsta);
+        //String proba1=textFieldProba1Denumire.getText();
+     //   String proba2=textFiledProba2Denumire.getText();
+      //  int varstaMin= Integer.parseInt(textFieldVarstaMin.getText());
+       // int varstaMax= Integer.parseInt(textFieldVarstaMax.getText());
+      //  Participant participantGasit=service.findOneByNumePrenume(nume,prenume);
+       // Proba probaGasita=service.findOneByDenumireVarsta(probaSelectata.getDenumire(),probaSelectata.getVarstaMin(),probaSelectata.getVarstaMax());
+       // Proba proba2Gasita=service.findOneByDenumireVarsta(proba2,varstaMin,varstaMax);
+      // if(participantGasit==null)
+        //    service.addParticipant(nume,prenume,varsta);
 
-        try{
 
-            if(proba1Gasita!=null)
-                service.addInscriere(nume,prenume,varsta,proba1Gasita);
-            if(proba2Gasita!=null)
-                service.addInscriere(nume,prenume,varsta,proba2Gasita);
+        if(nume.equals("") || prenume.equals(""))
+        {
+            Alert alert = new Alert(Alert.AlertType.ERROR,"Inscriere fara succes!");
+
+            alert.show();
+        }else // SA PUN CONDITIA CU VARSTA
+            {
+
+                service.addInscriere(nume,prenume,varsta,probaSelectata);
+
+
             modelProbe.setAll((Collection<? extends ProbaDTO>) this.service.getToateProbeleDTO());
 
             idTableProbe.setItems(modelProbe);
@@ -151,12 +166,9 @@ public class ControllerPrincipal implements  Controller {
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION,"Inscriere cu success");
 
             alert.show();
-            //de revazut 
-        }catch(Exception e){
-            Alert alert = new Alert(Alert.AlertType.ERROR,"Inscriere fara succes!");
+            //de revazut
+                }
 
-            alert.show();
-        }
 
     }
 }

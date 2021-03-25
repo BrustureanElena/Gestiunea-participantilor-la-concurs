@@ -8,10 +8,10 @@ namespace CSharp.repository
 {
     public class InscriereDBRepository:IInscriereRepository
     {
-        private ParticipantDBRepository _participantDbRepository;
-        private ProbaDBRepository _probaDbRepository;
+        private IParticipantRepository _participantDbRepository;
+        private IProbaRepository _probaDbRepository;
 
-        public InscriereDBRepository(ParticipantDBRepository participantDbRepository, ProbaDBRepository probaDbRepository)
+        public InscriereDBRepository(IParticipantRepository participantDbRepository, IProbaRepository probaDbRepository)
         {
             _participantDbRepository = participantDbRepository;
             _probaDbRepository = probaDbRepository;
