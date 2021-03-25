@@ -10,6 +10,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ConcursClient" />
+            <option value="$PROJECT_DIR$/ConcursModel" />
+            <option value="$PROJECT_DIR$/ConcursNetworking" />
+            <option value="$PROJECT_DIR$/ConcursPersistance" />
+            <option value="$PROJECT_DIR$/ConcursServer" />
+            <option value="$PROJECT_DIR$/ConcursServices" />
           </set>
         </option>
       </GradleProjectSettings>

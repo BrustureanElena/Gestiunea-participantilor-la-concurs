@@ -1,2 +1,9 @@
 rootProject.name = 'JAVApb5'
+include 'ConcursClient'
+include 'ConcursModel'
+include 'ConcursNetworking'
+include 'ConcursPersistance'
+include 'ConcursServer'
+include 'ConcursServices'
+include 'ConcursServices'
 

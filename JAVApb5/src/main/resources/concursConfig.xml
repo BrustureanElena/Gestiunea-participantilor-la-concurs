@@ -19,7 +19,7 @@
         <constructor-arg ref="probeRepojdbc" />
     </bean>
 
-    <bean id="service" class="concurs.service.Service">
+    <bean id="service" class="concurs.Service">
 
         <constructor-arg ref="participantiRepojdbc" />
         <constructor-arg ref="probeRepojdbc" />
