@@ -5,6 +5,7 @@ import concurs.service.ConcursException;
 import concurs.service.IConcursObserver;
 import concurs.service.IConcursService;
 
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -175,20 +176,23 @@ public class ControllerPrincipal implements Controller,IConcursObserver {
     @Override
     public void inscriereUpdated(Inscriere inscriere) throws ConcursException {
      //   modelProbe.setAll(service.getToateProbeleDTO());
-        ProbaDTO probaDTO = modelProbe.stream()
-                .filter(proba -> proba.getId().equals(inscriere.getProba().getId()))
-                .findFirst()
-                .get();
-        probaDTO.setNrParticipanti(probaDTO.getNrParticipanti() + 1);
-        int index = modelProbe.indexOf(probaDTO);
-        modelProbe.set(index, probaDTO);
+        Platform.runLater(()->{
+            ProbaDTO probaDTO = modelProbe.stream()
+                    .filter(proba -> proba.getId().equals(inscriere.getProba().getId()))
+                    .findFirst()
+                    .get();
+            probaDTO.setNrParticipanti(probaDTO.getNrParticipanti() + 1);
+            int index = modelProbe.indexOf(probaDTO);
+            modelProbe.set(index, probaDTO);
 
-      ///  ParticipantDTO participantDTO = new ParticipantDTO(inregistrare.getParticipant().getNume(),
-        //        inregistrare.getParticipant().getPrenume(),inregistrare.getParticipant().getVarsta(),probaDTOString);
-       Participant participant=inscriere.getParticipant();
-        modelParticipanti.add(participant);
-        idTableProbe.refresh();
-        idTableParticipanti.refresh();
+            ///  ParticipantDTO participantDTO = new ParticipantDTO(inregistrare.getParticipant().getNume(),
+            //        inregistrare.getParticipant().getPrenume(),inregistrare.getParticipant().getVarsta(),probaDTOString);
+            Participant participant=inscriere.getParticipant();
+            modelParticipanti.add(participant);
+            idTableProbe.refresh();
+            idTableParticipanti.refresh();
+        } );
+
     }
 
 }
