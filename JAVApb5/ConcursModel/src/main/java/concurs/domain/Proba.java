@@ -1,8 +1,9 @@
 package concurs.domain;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Proba  implements Entity<Long>{
+public class Proba  implements Entity<Long>, Serializable {
     private long id;
     private String denumire;
     private int varstaMin;

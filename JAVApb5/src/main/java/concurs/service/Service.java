@@ -31,12 +31,14 @@ public class Service {
   //  }
 
 
-    public Long addParticipant( String nume, String prenume, int varsta) {
+    public void addParticipant( String nume, String prenume, int varsta) {
 
             Participant participant=new Participant(nume,prenume,varsta);
             participantiDBRepository.add(participant);
-            return participant.getId();
+           // return participant.getId();
     }
+
+
     public void addInscriere(String nume,String prenume,int varsta,Proba proba) throws Exception {
 
         Participant participant=participantiDBRepository.findOneByNumePrenume(nume,prenume);

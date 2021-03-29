@@ -223,4 +223,41 @@ public class ParticipantiDBRepository implements ParticipantRepository {
         return participant;
     }
 
+
+    @Override
+    public Participant addWithReturn(Participant elem) {
+        logger.traceEntry("saving participant{}",elem);
+        Connection con = dbUtils.getConnection();
+        try(PreparedStatement preStmt = con.prepareStatement("insert into \"Participanti\"(nume,prenume,varsta) values (?,?,?)")){
+            preStmt.setString(1,elem.getNume());
+            preStmt.setString(2, elem.getPrenume());
+            preStmt.setInt(3,elem.getVarsta());
+            int result = preStmt.executeUpdate();
+            logger.trace("Saved {} instances",result);
+            try (PreparedStatement preparedStatement = con.prepareStatement("select * from \"Participanti\" where id = last_insert_rowid();" )) {
+                try (ResultSet resultSet = preparedStatement.executeQuery()) {
+                    if(resultSet.next()) {
+                        Long id = resultSet.getLong("id");
+                        String nume = resultSet.getString("nume");
+                        String prenume = resultSet.getString("prenume");
+                        int varsta = resultSet.getInt("varsta");
+                        Participant participant = new Participant(nume,prenume,varsta);
+                        participant.setId(id);
+                        logger.traceExit(participant);
+                        return participant;
+                    }
+                }
+            } catch (SQLException e) {
+                logger.error(e);
+                System.err.println("Error DB: " + e);
+            }
+
+        } catch (SQLException ex) {
+            logger.error(ex);
+            System.err.println("Error DB: " + ex);
+        }
+
+        return null;
+
+    }
 }

@@ -1,8 +1,9 @@
 package concurs.domain;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class AngajatOficiu  implements Entity<Long>{
+public class AngajatOficiu  implements Entity<Long>, Serializable {
     private long id;
     private String username;
     private String parola;

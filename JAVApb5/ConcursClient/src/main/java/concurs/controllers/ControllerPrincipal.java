@@ -1,8 +1,8 @@
 package concurs.controllers;
 
-import concurs.domain.Participant;
-import concurs.domain.Proba;
-import concurs.domain.ProbaDTO;
+import concurs.domain.*;
+import concurs.service.ConcursException;
+import concurs.service.IConcursObserver;
 import concurs.service.IConcursService;
 
 import javafx.collections.FXCollections;
@@ -10,6 +10,7 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
@@ -18,11 +19,17 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.util.Collection;
 
-public class ControllerPrincipal implements  Controller {
+
+
+public class ControllerPrincipal implements Controller,IConcursObserver {
     Stage principalStage;
+    AngajatOficiu angajatOficiuConnectat;
     IConcursService service;
+    ControllerPrincipal controllerPrincipal;
+
     ObservableList<ProbaDTO> modelProbe= FXCollections.observableArrayList();
     ObservableList<Proba> modelProbePtInscriere= FXCollections.observableArrayList();
     ObservableList<Participant> modelParticipanti= FXCollections.observableArrayList();
@@ -57,9 +64,12 @@ public class ControllerPrincipal implements  Controller {
 
     @Override
     public void initialize() {
+        idTableParticipanti.setItems(modelParticipanti);
+        idTableProbe.setItems(modelProbe);
+
 
     }
-    public void initModel() {
+    public void initModel() throws ConcursException {
 
         modelProbe.setAll((Collection<? extends ProbaDTO>) this.service.getToateProbeleDTO());
 
@@ -68,7 +78,10 @@ public class ControllerPrincipal implements  Controller {
         idTableProbe.setItems(modelProbe);
 
     }
-
+    public void setAngajatOficiuConnectat(AngajatOficiu angajatOficiuConnectat) throws ConcursException {
+        this.angajatOficiuConnectat=angajatOficiuConnectat;
+        initModel();
+    }
 
     @Override
     public void setStage(Stage probeStage) {
@@ -76,13 +89,13 @@ public class ControllerPrincipal implements  Controller {
     }
 
 
-    public void setContext(IConcursService service, Stage principalStage) {
+    public void setContext(IConcursService service) throws ConcursException {
         this.service=service;
-        this.principalStage=principalStage;
-        initModel();
+
+       // initModel();
     }
 
-    public void cautaParticipanti(ActionEvent actionEvent) {
+    public void cautaParticipanti(ActionEvent actionEvent) throws ConcursException {
         Proba proba=idTableProbe.getSelectionModel().getSelectedItem();
         if(proba!=null) {
             idTableParticipanti.getItems().setAll(service.getParticipantiProbaVarsta(proba));
@@ -96,9 +109,9 @@ public class ControllerPrincipal implements  Controller {
 
     public void handleLogout(ActionEvent actionEvent) {
 
-
+        /*
         try{
-            service.logout();
+            service.logout(this);
             principalStage.hide();
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("/LoginView.fxml"));
@@ -106,37 +119,37 @@ public class ControllerPrincipal implements  Controller {
             LoginController ctrl = loader.getController();
             Stage primaryStage=new Stage();
 
-            ctrl.setContext(service,primaryStage);
+            ctrl.setContext(service);
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
             primaryStage.setTitle("Welcome");
             primaryStage.show();
 
 
-
         }catch(Exception e){
-            MessageBox.showErrorMessage(null,e.getMessage());
+           MessageBox.showErrorMessage(null,e.getMessage());
 
+        }*/
+
+        logout();
+        ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
+
+    }
+    public void logout(){
+        try {
+            service.logout(angajatOficiuConnectat,this);
+            System.exit(0);
+        } catch (ConcursException e) {
+            System.out.println("Logout error " + e);
         }
     }
-
     public void adaugaInscriere(ActionEvent actionEvent) throws Exception {
-
 
         Proba probaSelectata=(Proba)idTableProbe2.getSelectionModel().getSelectedItem();
 
         String nume=textFieldNume.getText();
         String prenume=textFieldPrenume.getText();
         int varsta= Integer.parseInt(textFieldVarsta.getText());
-        //String proba1=textFieldProba1Denumire.getText();
-     //   String proba2=textFiledProba2Denumire.getText();
-      //  int varstaMin= Integer.parseInt(textFieldVarstaMin.getText());
-       // int varstaMax= Integer.parseInt(textFieldVarstaMax.getText());
-      //  Participant participantGasit=service.findOneByNumePrenume(nume,prenume);
-       // Proba probaGasita=service.findOneByDenumireVarsta(probaSelectata.getDenumire(),probaSelectata.getVarstaMin(),probaSelectata.getVarstaMax());
-       // Proba proba2Gasita=service.findOneByDenumireVarsta(proba2,varstaMin,varstaMax);
-      // if(participantGasit==null)
-        //    service.addParticipant(nume,prenume,varsta);
 
 
         if(nume.equals("") || prenume.equals(""))
@@ -146,20 +159,36 @@ public class ControllerPrincipal implements  Controller {
             alert.show();
         }else // SA PUN CONDITIA CU VARSTA
             {
+                Participant participant=new Participant(nume,prenume,varsta);
+                Inscriere inscriere=new Inscriere(participant,probaSelectata);
+                service.addInscriere(inscriere);
 
-                service.addInscriere(nume,prenume,varsta,probaSelectata);
+           // modelProbe.setAll((Collection<? extends ProbaDTO>) this.service.getToateProbeleDTO());
 
+           // idTableProbe.setItems(modelProbe);
 
-            modelProbe.setAll((Collection<? extends ProbaDTO>) this.service.getToateProbeleDTO());
-
-            idTableProbe.setItems(modelProbe);
-
-            Alert alert = new Alert(Alert.AlertType.CONFIRMATION,"Inscriere cu success");
-
-            alert.show();
-            //de revazut
                 }
 
 
     }
+//DE MODIFICAT
+    @Override
+    public void inscriereUpdated(Inscriere inscriere) throws ConcursException {
+     //   modelProbe.setAll(service.getToateProbeleDTO());
+        ProbaDTO probaDTO = modelProbe.stream()
+                .filter(proba -> proba.getId().equals(inscriere.getProba().getId()))
+                .findFirst()
+                .get();
+        probaDTO.setNrParticipanti(probaDTO.getNrParticipanti() + 1);
+        int index = modelProbe.indexOf(probaDTO);
+        modelProbe.set(index, probaDTO);
+
+      ///  ParticipantDTO participantDTO = new ParticipantDTO(inregistrare.getParticipant().getNume(),
+        //        inregistrare.getParticipant().getPrenume(),inregistrare.getParticipant().getVarsta(),probaDTOString);
+       Participant participant=inscriere.getParticipant();
+        modelParticipanti.add(participant);
+        idTableProbe.refresh();
+        idTableParticipanti.refresh();
+    }
+
 }

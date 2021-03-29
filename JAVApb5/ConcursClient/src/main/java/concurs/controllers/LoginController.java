@@ -1,10 +1,12 @@
 package concurs.controllers;
 
+import concurs.domain.AngajatOficiu;
 import concurs.service.IConcursService;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -14,7 +16,9 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 public class LoginController implements  Controller {
-
+        //ii bun asta aici??
+        private Parent prt;
+    ControllerPrincipal ctrlPrincipal;
     @FXML
      TextField idTextFieldUsername;
     @FXML
@@ -44,35 +48,41 @@ public class LoginController implements  Controller {
     public void handleLogin(ActionEvent actionEvent) {
         String username=idTextFieldUsername.getText();
         String password=idTextFieldParola.getText();
+        AngajatOficiu angajatOficiu=new AngajatOficiu(username,password);
         try{
-            service.login(username,password);
-            loginStage.close();
-            FXMLLoader loader=new FXMLLoader();
-            loader.setLocation(getClass().getResource("/principalView.fxml"));
-            Parent root=loader.load();
-            ControllerPrincipal ctrl=loader.getController();
 
-            // aici
-            Stage primaryStage=new Stage();
-            ctrl.setContext(service,primaryStage);
-            Scene scene=new Scene(root);
-            primaryStage.setScene(scene);
+            service.login(angajatOficiu, ctrlPrincipal);
+            //asta
+            //AngajatOficiu angajatOficiu=new AngajatOficiu(username,password);
+            Stage stage=new Stage();
+            stage.setScene(new Scene(prt));
 
-            primaryStage.setTitle("Concurs pentru copii");
+            stage.setOnCloseRequest(event -> {
+                ctrlPrincipal.logout();
+                System.exit(0);
+            });
+            //asta
+            ctrlPrincipal.setAngajatOficiuConnectat(angajatOficiu);
 
-            primaryStage.show();
-            //creez una noua
-            //dau show, la fel ca in main... stage...
+
+            stage.show();
+
+            ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
         }catch(Exception e){
             MessageBox.showErrorMessage(null,e.getMessage());
         }
 
     }
-    public void setContext(IConcursService service, Stage loginStage){
+    public void setContext(IConcursService service){
         this.service=service;
-        this.loginStage=loginStage;
+
+    }
+    public void setControllerPrincipal(ControllerPrincipal crt){
+        ctrlPrincipal=crt;
+    }
+    public void setParent(Parent p) {
+        this.prt = p;
     }
 
 
-
-}
+    }

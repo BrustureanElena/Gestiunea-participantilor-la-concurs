@@ -1,8 +1,9 @@
 package concurs.domain;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Participant implements Entity<Long>{
+public class Participant implements Entity<Long>, Serializable {
     private long id;
     private String nume;
     private String prenume;

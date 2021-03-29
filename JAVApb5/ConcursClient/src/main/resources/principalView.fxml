@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="concurs.controllers.ControllerPrincipal">
+    <tabs>
+
+
+
+        <Tab text="Toate probele">
+            <content>
+                <GridPane alignment="CENTER" hgap="10.0" vgap="10.0">
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <TextField />
+
+
+
+
+
+                    <TableView fx:id="idTableProbe" prefHeight="298.0" prefWidth="361.0" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="1">
+                        <columns>
+                            <TableColumn text="ID">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="id" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn text="Denumire">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="denumire" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn text="varsta minima">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="varstaMin" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn text="varsta maxima">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="varstaMax" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn text="nr.P">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="nrParticipanti" />
+                                </cellValueFactory>
+                            </TableColumn>
+                        </columns>
+                        <columnResizePolicy>
+                            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                        </columnResizePolicy>
+                    </TableView>
+                    <TableView fx:id="idTableParticipanti" prefHeight="223.0" prefWidth="301.0" GridPane.rowIndex="1">
+                        <columns>
+                            <TableColumn prefWidth="75.0" text="id">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="id" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn prefWidth="75.0" text="nume">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="nume" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn prefWidth="75.0" text="prenume">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="prenume" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn prefWidth="75.0" text="varsta">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="varsta" />
+                                </cellValueFactory>
+                            </TableColumn>
+                        </columns>
+                    </TableView>
+                    <Button fx:id="idButtonCauta" onAction="#cautaParticipanti" text="Cauta" GridPane.rowIndex="2" />
+                    <Button fx:id="idButtonLogout" mnemonicParsing="false" onAction="#handleLogout" prefHeight="34.0" prefWidth="73.0" text="Log out" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                    <columnConstraints>
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                    </rowConstraints>
+                </GridPane>
+            </content>
+        </Tab>
+
+        <Tab text="Inscrieri">
+            <content>
+                <GridPane alignment="CENTER" hgap="10.0" vgap="10.0">
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <Label text="Nume" GridPane.rowIndex="1" />
+                    <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                    <Label text="Prenume" GridPane.rowIndex="2" />
+
+                    <HBox alignment="BOTTOM_RIGHT" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="8" />
+                    <TextField fx:id="textFieldVarsta" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                    <Label text="Varsta" GridPane.rowIndex="3" />
+                    <TextField fx:id="textFieldPrenume" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                    <TextField fx:id="textFieldNume" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                    <Button fx:id="adaugareButton" onAction="#adaugaInscriere" text="Adauga inscriere" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                    <TableView fx:id="idTableProbe2" prefHeight="200.0" prefWidth="302.0">
+                        <columns>
+                            <TableColumn prefWidth="75.0" text="ID">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="id" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn prefWidth="75.0" text="Denumire">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="denumire" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn prefWidth="75.0" text="varsta min">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="varstaMin" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn prefWidth="75.0" text="varsta max">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="varstaMax" />
+                                </cellValueFactory>
+                            </TableColumn>
+                        </columns>
+                    </TableView>
+                    <columnConstraints>
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                    </rowConstraints>
+
+
+                </GridPane>
+            </content>
+        </Tab>
+
+    </tabs>
+</TabPane>

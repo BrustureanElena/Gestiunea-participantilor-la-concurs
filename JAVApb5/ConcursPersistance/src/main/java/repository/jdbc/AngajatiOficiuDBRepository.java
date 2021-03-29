@@ -72,4 +72,23 @@ public class AngajatiOficiuDBRepository implements AngajatOficiuRepository {
         //conn.close();
         return angajatOficiu;
     }
+
+    @Override
+    public boolean login(String username, String parola) {
+        try {
+            String select="select * from \"AngajatOficiu\" where username=? and parola=?";
+            Connection con=dbUtils.getConnection();
+            PreparedStatement stmt  = con.prepareStatement(select);
+            stmt.setString(1,username);
+            stmt.setString(2,parola);
+            ResultSet rs = stmt.executeQuery();
+            boolean res=rs.next();
+            stmt.close();
+            rs.close();
+            return res;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
 }
