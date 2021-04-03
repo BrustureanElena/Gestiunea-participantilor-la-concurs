@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\model\bin\Debug\model.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\model\bin\Debug\model.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\model\obj\Debug\model.csprojAssemblyReference.cache
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\model\obj\Debug\model.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\model\obj\Debug\model.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\model\obj\Debug\model.pdb

@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\bin\Debug\persistence.dll.config
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\bin\Debug\persistence.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\bin\Debug\persistence.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\bin\Debug\log4net.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\bin\Debug\model.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\bin\Debug\System.Data.SQLite.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\bin\Debug\model.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\bin\Debug\log4net.xml
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\bin\Debug\System.Data.SQLite.xml
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\obj\Debug\persistence.csprojAssemblyReference.cache
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\obj\Debug\persistence.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\obj\Debug\persistence.csproj.CopyComplete
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\obj\Debug\persistence.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\obj\Debug\persistence.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\persistence\bin\Debug\Mono.Data.Sqlite.dll

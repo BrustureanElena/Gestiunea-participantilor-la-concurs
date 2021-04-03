@@ -35,7 +35,56 @@ namespace CSharp.repository
             }
            // throw new NotImplementedException();
         }
+  public Participant AddWithReturn(Participant elem)
+        {
+            log.InfoFormat("Add participant with return {0}",elem);
+            var con = DBUtils.getConnection();
 
+            using (var comm = con.CreateCommand())
+            {
+                comm.CommandText = "insert into Participanti(nume,prenume,varsta) values (@nume, @prenume, @varsta)";
+                comm.Parameters.Add(new SQLiteParameter("@nume",elem.Nume));
+                comm.Parameters.Add(new SQLiteParameter("@prenume", elem.Prenume));
+                comm.Parameters.Add(new SQLiteParameter("varsta", elem.Varsta));
+                
+                try
+                {
+                    var result = comm.ExecuteNonQuery();
+                    if (result == 0) 
+                        log.Info("Succesful adding!");
+                    
+                    using (var comm2 = con.CreateCommand())
+                    {
+                        comm2.CommandText = "select * from Participanti where id = last_insert_rowid()";
+                        
+                        using (var dataR = comm2.ExecuteReader())
+                        {
+                            if (dataR.Read())
+                            {
+                                int idP = dataR.GetInt32(0);
+                                String numeP = dataR.GetString(1);
+                                String prenumeP = dataR.GetString(2);
+                                int varstaP = dataR.GetInt32(3);
+
+                                Participant participant = new Participant(numeP, prenumeP, varstaP);
+                                participant.Id = idP; //set ID
+                                
+                                log.InfoFormat("Exiting addWithReturn with value {0}", participant);
+                                return participant;
+                            }
+                        }
+                    }
+                    
+                }
+                catch(Exception e)
+                {
+                    log.Error("Error AddWithReturn Participant: " + e.Message);
+                }
+            }
+
+            return null;
+        }
+        
         public IEnumerable<Participant> FindAll()
         {
 

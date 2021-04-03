@@ -29,7 +29,7 @@ namespace CSharp
          
            
           
-            Console.WriteLine("Toti participantii din db: ");
+           /* Console.WriteLine("Toti participantii din db: ");
             foreach (Participant t in participantDbRepository.FindAll())
             {
                 Console.WriteLine(t);
@@ -38,7 +38,7 @@ namespace CSharp
           
                 Console.WriteLine(participantDbRepository.FindOne(9L));
          
-            
+            */
             
             Console.WriteLine("Toate probele:  ");
             foreach (Proba p in probaDbRepository.FindAll())
@@ -139,6 +139,10 @@ namespace CSharp
                    Console.WriteLine(t);
                }
                
+               Console.WriteLine("add with return");
+               Participant participantAdd = new Participant("pop", "gloa", 11);
+               Console.WriteLine(participantDbRepository.AddWithReturn(participantAdd));
+               Console.WriteLine("aicciii");
         }
     }
 }

@@ -25,8 +25,13 @@ namespace ConnectionUtils
             //  var DataSource = resource.GetString("Data Source");
             //  var Version = resource.GetString("Version");
             // return new SQLiteConnection(DataSource + Version);
+            
+            
             String connectionString = ConfigurationManager.ConnectionStrings["Concurs.db"].ConnectionString;
             return new SQLiteConnection(connectionString);
+              //Console.WriteLine("creating ... sqlite connection");
+			//String connectionString = "URI=file:ChatMPP2017.db,Version=3";
+			return new SqliteConnection(connectionString);
         }
     }
 }

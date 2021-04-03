@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\services\bin\Debug\services.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\services\bin\Debug\services.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\services\bin\Debug\model.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\services\bin\Debug\model.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\services\obj\Debug\services.csprojAssemblyReference.cache
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\services\obj\Debug\services.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\services\obj\Debug\services.csproj.CopyComplete
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\services\obj\Debug\services.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\services\obj\Debug\services.pdb

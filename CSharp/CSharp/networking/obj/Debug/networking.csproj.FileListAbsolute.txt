@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\bin\Debug\networking.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\bin\Debug\networking.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\bin\Debug\model.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\bin\Debug\services.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\bin\Debug\model.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\bin\Debug\services.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\obj\Debug\networking.csprojAssemblyReference.cache
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\obj\Debug\networking.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\obj\Debug\networking.csproj.CopyComplete
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\obj\Debug\networking.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\obj\Debug\networking.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\bin\Debug\ConnectionUtils.exe
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\bin\Debug\System.Data.SQLite.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\bin\Debug\ConnectionUtils.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\bin\Debug\ConnectionUtils.exe.config
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\networking\bin\Debug\System.Data.SQLite.xml

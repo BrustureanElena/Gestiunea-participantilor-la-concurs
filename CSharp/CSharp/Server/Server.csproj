@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{2B8768A5-EAF5-46C9-A07F-5F5DA74CB563}</ProjectGuid>
+        <OutputType>Exe</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>Server</RootNamespace>
+        <AssemblyName>Server</AssemblyName>
+        <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="ConcursServerImpl.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="StartServer.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\ConnectionUtils\ConnectionUtils.csproj">
+        <Project>{1e8f254f-dd11-4bb6-a883-21f03ef543b4}</Project>
+        <Name>ConnectionUtils</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\model\model.csproj">
+        <Project>{337b2dc5-fe3a-440e-8c0c-e021aec3a286}</Project>
+        <Name>model</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\networking\networking.csproj">
+        <Project>{d192500d-eb20-4970-a2bd-dd3b37f4c05d}</Project>
+        <Name>networking</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\persistence\persistence.csproj">
+        <Project>{5ed7ba57-3f6d-4f3f-bafe-7fb7fe46afb7}</Project>
+        <Name>persistence</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\services\services.csproj">
+        <Project>{66abe83a-99f6-4c85-805f-6706874e3417}</Project>
+        <Name>services</Name>
+      </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="App.config" />
+      <None Include="packages.config" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>

@@ -12,7 +12,7 @@ namespace CSharp.repository
         Participant FindOne(long id);
       int GetNrParticipantiProbaVarsta(Proba proba);
       List<Participant> GetParticipantiProbaVarsta(Proba proba);
-      
+      Participant AddWithReturn(Participant elem);
   
       Participant findOneByNumePrenume2(String numeDat, String prenumeDat);
 
