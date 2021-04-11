@@ -1,4 +1,4 @@
-package repository;
+package concurs.persistance;
 
 import concurs.domain.Participant;
 import concurs.domain.Proba;

@@ -15,7 +15,7 @@ namespace client
             Application.SetCompatibleTextRenderingDefault(false);
 
 
-            //IChatServer server=new ChatServerMock();          
+                      
             IConcursServices server = new ConcursServerProxy("127.0.0.1", 55555);
             ConcursClientCtrl ctrl = new ConcursClientCtrl(server);
             Form1 win = new Form1(ctrl);

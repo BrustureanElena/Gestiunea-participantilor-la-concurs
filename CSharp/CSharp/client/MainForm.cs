@@ -60,10 +60,11 @@ namespace client
         }
         private void updateDataGridBox(DataGridView dataGrid, IList<ProbaDTO> newData)
         {
-            //tableParticipanti.Refresh();
+            tableParticipanti.Refresh();
             tableProbe.Refresh();
-            tableProbe.DataSource = newData;
-            tableProbe.AutoResizeColumns();          
+           tableProbe.DataSource = newData;
+            tableProbe.AutoResizeColumns();  
+            tableProbe.AutoGenerateColumns = true;
                                              
         }
         public delegate void UpdateDataGridBoxCallback(DataGridView dataGrid, IList<ProbaDTO> newData);
@@ -80,11 +81,11 @@ namespace client
                    probaDto.nrParticipanti = nr + 1;
                
                    
-                    int index = probeData.IndexOf(probaDto);
-                   //probeData[index] = null;
+                int index = probeData.IndexOf(probaDto);
+                // probeData[index] = null;
                     
-                    probeData.Insert(index,probaDto);   
-                   
+                    probeData.Insert(index,probaDto);
+                    probeData.Remove(probaDto);
                     tableProbe.BeginInvoke(new UpdateDataGridBoxCallback(this.updateDataGridBox),
                         new Object[] {tableProbe, probeData});
                   
@@ -95,28 +96,7 @@ namespace client
              //   new Object[] {tableProbe, probeData});
 
         }
-      //lavi
-      
    
-     /* public void inscriereUpdated(object sender, ConcursEventArgs e)
-      {
-          if (e.ConcursEventType==ConcursEvent.AddInscriere)
-          {
-              long idProba = Int64.Parse(e.Data.ToString());
-              foreach (DataGridViewRow row in this.tableProbe.Rows)
-                  if (Convert.ToInt32(row.Cells[1].Value) == idProba)
-                  {
-                      int value = Int32.Parse(row.Cells[0].Value.ToString());
-                      value++;
-                      row.Cells[0].Value = value;
-                  }
-                
-
-          }
-      }
-     
-        */
-        
 
         private void button1_Click(object sender, EventArgs e)
         {

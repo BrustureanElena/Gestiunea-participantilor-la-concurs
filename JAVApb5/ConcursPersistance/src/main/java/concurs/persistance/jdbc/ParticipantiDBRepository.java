@@ -1,10 +1,10 @@
-package repository.jdbc;
+package concurs.persistance.jdbc;
 
 import concurs.domain.Participant;
 import concurs.domain.Proba;
+import concurs.persistance.ParticipantRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import repository.ParticipantRepository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

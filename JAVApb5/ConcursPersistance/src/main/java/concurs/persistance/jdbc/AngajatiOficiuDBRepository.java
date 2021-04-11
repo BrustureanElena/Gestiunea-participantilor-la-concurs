@@ -1,9 +1,9 @@
-package repository.jdbc;
+package concurs.persistance.jdbc;
 
 import concurs.domain.AngajatOficiu;
+import concurs.persistance.AngajatOficiuRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import repository.AngajatOficiuRepository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

@@ -15,7 +15,11 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-public class LoginController implements  Controller {
+import java.io.Serializable;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
+public class LoginController extends UnicastRemoteObject implements  Controller, Serializable {
         //ii bun asta aici??
         private Parent prt;
     ControllerPrincipal ctrlPrincipal;
@@ -34,6 +38,11 @@ public class LoginController implements  Controller {
 
     IConcursService service;
     Stage loginStage;
+
+    public LoginController() throws RemoteException {
+
+
+    }
     @Override
     public void initialize() {
 
@@ -73,7 +82,7 @@ public class LoginController implements  Controller {
         }
 
     }
-    public void setContext(IConcursService service){
+    public void setContext(IConcursService service) throws  RemoteException{
         this.service=service;
 
     }

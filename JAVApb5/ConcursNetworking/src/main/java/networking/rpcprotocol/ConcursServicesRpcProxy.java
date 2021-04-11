@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+import java.rmi.RemoteException;
 import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -209,7 +210,7 @@ public class ConcursServicesRpcProxy implements IConcursService {
         System.out.println("Inscriere updated: " + sp);
         try {
                 client.inscriereUpdated(sp);
-        } catch (ConcursException var6) {
+        } catch (ConcursException | RemoteException var6) {
                 var6.printStackTrace();
         }
     }

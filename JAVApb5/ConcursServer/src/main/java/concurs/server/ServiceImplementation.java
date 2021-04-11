@@ -4,11 +4,12 @@ import concurs.domain.*;
 import concurs.service.ConcursException;
 import concurs.service.IConcursObserver;
 import concurs.service.IConcursService;
-import repository.AngajatOficiuRepository;
-import repository.InscriereRepository;
-import repository.ParticipantRepository;
-import repository.ProbaRepository;
+import concurs.persistance.AngajatOficiuRepository;
+import concurs.persistance.InscriereRepository;
+import concurs.persistance.ParticipantRepository;
+import concurs.persistance.ProbaRepository;
 
+import java.rmi.RemoteException;
 import java.sql.SQLException;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -146,7 +147,7 @@ public class ServiceImplementation  implements IConcursService {
             executor.execute(() -> {
                 try {
                     o.getValue().inscriereUpdated(inscriere);
-                } catch (ConcursException e) {
+                } catch (ConcursException | RemoteException e) {
                     System.err.println("Error notifying inregistrari " + e);
                 }
             });

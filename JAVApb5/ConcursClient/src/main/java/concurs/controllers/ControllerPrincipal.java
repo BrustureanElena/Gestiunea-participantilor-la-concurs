@@ -21,11 +21,16 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.io.Serializable;
+import java.rmi.RemoteException;
+import java.rmi.server.RMIClientSocketFactory;
+import java.rmi.server.RMIServerSocketFactory;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.Collection;
 
 
 
-public class ControllerPrincipal implements Controller,IConcursObserver {
+public class ControllerPrincipal extends UnicastRemoteObject implements Controller,IConcursObserver, Serializable {
     Stage principalStage;
     AngajatOficiu angajatOficiuConnectat;
     IConcursService service;
@@ -34,6 +39,10 @@ public class ControllerPrincipal implements Controller,IConcursObserver {
     ObservableList<ProbaDTO> modelProbe= FXCollections.observableArrayList();
     ObservableList<Proba> modelProbePtInscriere= FXCollections.observableArrayList();
     ObservableList<Participant> modelParticipanti= FXCollections.observableArrayList();
+    public ControllerPrincipal() throws RemoteException {
+
+
+    }
 
     @FXML
     TableView<ProbaDTO> idTableProbe;
@@ -63,6 +72,9 @@ public class ControllerPrincipal implements Controller,IConcursObserver {
     TextField textFieldVarsta;
 
 
+
+
+
     @Override
     public void initialize() {
         idTableParticipanti.setItems(modelParticipanti);
@@ -90,7 +102,7 @@ public class ControllerPrincipal implements Controller,IConcursObserver {
     }
 
 
-    public void setContext(IConcursService service) throws ConcursException {
+    public void setContext(IConcursService service) throws RemoteException{
         this.service=service;
 
        // initModel();
