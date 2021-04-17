@@ -8,7 +8,9 @@ public class Participant implements Entity<Long>, Serializable {
     private String nume;
     private String prenume;
     private int varsta;
+    public Participant() {
 
+    }
     public Participant(String nume, String prenume, int varsta) {
         this.nume = nume;
         this.prenume = prenume;
@@ -57,6 +59,7 @@ public class Participant implements Entity<Long>, Serializable {
     @Override
     public String toString() {
         return "Participant{" +
+                "id"+id+
                 "nume='" + nume + '\'' +
                 ", prenume='" + prenume + '\'' +
                 ", varsta=" + varsta +

@@ -59,6 +59,10 @@
         <Project>{5ed7ba57-3f6d-4f3f-bafe-7fb7fe46afb7}</Project>
         <Name>persistence</Name>
       </ProjectReference>
+      <ProjectReference Include="..\protobuf3\protobuf3.csproj">
+        <Project>{13f7c2f9-d508-4f51-841d-6c2a6f562337}</Project>
+        <Name>protobuf3</Name>
+      </ProjectReference>
       <ProjectReference Include="..\services\services.csproj">
         <Project>{66abe83a-99f6-4c85-805f-6706874e3417}</Project>
         <Name>services</Name>

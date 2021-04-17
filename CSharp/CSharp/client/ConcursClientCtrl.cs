@@ -67,6 +67,7 @@ namespace client
         }
         public void addInscriere(Inscriere inscriere)
         {
+            inscriere.Id = 0L;
             server.addInscriere(inscriere);
         }
        

@@ -162,6 +162,7 @@ public class ControllerPrincipal implements Controller,IConcursObserver {
             {
                 Participant participant=new Participant(nume,prenume,varsta);
                 Inscriere inscriere=new Inscriere(participant,probaSelectata);
+                inscriere.setId(0L);
                 service.addInscriere(inscriere);
 
            // modelProbe.setAll((Collection<? extends ProbaDTO>) this.service.getToateProbeleDTO());

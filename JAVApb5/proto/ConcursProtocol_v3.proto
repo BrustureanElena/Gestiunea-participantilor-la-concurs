@@ -1,0 +1,73 @@
+syntax="proto3";
+package concurs.protocol;
+
+option java_package = "concurs.network.protobuffprotocol";
+option java_outer_classname = "ConcursProtobufs";
+
+message AngajatOficiu{
+
+    string username=1;
+    string parola=2;
+    int64 id=3;
+}
+
+message Inscriere{
+   Participant participant=1;
+   Proba proba=2;
+   int64 id=3;
+}
+message Participant{
+     string  nume=1;
+     string  prenume=2;
+     string varsta=3;
+     int64 id=4;
+}
+message Proba{
+        string denumire=1;
+        string varstaMin=2;
+        string varstaMax=3;
+        int64 id=4;
+}
+message ProbaDTO{
+        string denumire=1;
+        string varstaMin=2;
+        string varstaMax=3;
+        string nrParticipanti=4;
+        int64 id=5;
+}
+message ConcursRequest{
+enum Type{ Unkown=0; Login=1; Inscrie=2; CautaParticipanti=3; GetProbe=4;Logout=5;GetProbeDTO=6;}
+
+  // Identifies which request is filled in.
+   Type type = 1;
+
+  // One of the following will be filled in, depending on the type.
+      oneof payload{
+          AngajatOficiu angajatOficiu= 2;
+          Inscriere inscriere = 3;
+          Proba proba=4;
+
+     }
+
+
+}
+
+message ConcursResponse{
+    enum Type{ Unkown=0; Ok=1;Error=2;InscriereRealizata=3;LoggedIn=4;ParticipantiGasiti=5;GotProbe=6;GotProbeDTO=7;}
+
+      // Identifies which request is filled in.
+          Type type = 1;
+
+         // One of the following will be filled in, depending on the type.
+          string error = 2;
+          Inscriere inscriere = 3;
+          AngajatOficiu angajatOficiu=4;
+          repeated  Participant participanti=5;
+
+          repeated Proba proba= 6;
+          repeated ProbaDTO probaDTO=7;
+
+
+
+
+}

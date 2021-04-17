@@ -8,6 +8,10 @@ public class Inscriere implements Entity<Long>, Serializable {
     private  Participant participant;
     private Proba proba;
 
+    public Inscriere() {
+
+
+    }
     public Inscriere(Participant participant, Proba proba) {
 
         this.participant = participant;

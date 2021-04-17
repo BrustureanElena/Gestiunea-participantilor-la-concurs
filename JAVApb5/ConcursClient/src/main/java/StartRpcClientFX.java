@@ -6,7 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import networking.rpcprotocol.ConcursServicesRpcProxy;
+import concurs.network.rpcprotocol.ConcursServicesRpcProxy;
 
 import java.io.IOException;
 import java.util.Properties;

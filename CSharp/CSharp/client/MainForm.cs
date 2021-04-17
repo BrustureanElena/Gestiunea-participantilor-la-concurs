@@ -83,8 +83,8 @@ namespace client
                     int index = probeData.IndexOf(probaDto);
                    //probeData[index] = null;
                     
-                    probeData.Insert(index,probaDto);   
-                   
+                    probeData.Insert(index,probaDto);
+                    probeData.Remove(probaDto);
                     tableProbe.BeginInvoke(new UpdateDataGridBoxCallback(this.updateDataGridBox),
                         new Object[] {tableProbe, probeData});
                   

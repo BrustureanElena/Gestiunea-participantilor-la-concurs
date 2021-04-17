@@ -9,7 +9,9 @@ public class Proba  implements Entity<Long>, Serializable {
     private int varstaMin;
     private int varstaMax;
 
+    public Proba() {
 
+    }
     public Proba(String denumire,  int varstaMin, int varstaMax) {
         this.denumire = denumire;
 
@@ -63,6 +65,7 @@ public class Proba  implements Entity<Long>, Serializable {
     @Override
     public String toString() {
         return "Proba{" +
+                "id"+id+
                 "denumire='" + denumire + '\'' +
 
                 ", varstaMin=" + varstaMin +

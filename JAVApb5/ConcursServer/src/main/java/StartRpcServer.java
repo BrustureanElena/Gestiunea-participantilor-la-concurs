@@ -1,10 +1,9 @@
 
-import concurs.domain.AngajatOficiu;
 import concurs.server.ServiceImplementation;
 import concurs.service.IConcursService;
-import networking.utils.AbstractServer;
-import networking.utils.ConcursConcurrentServer;
-import networking.utils.ServerException;
+import concurs.network.utils.AbstractServer;
+import concurs.network.utils.ConcursConcurrentServer;
+import concurs.network.utils.ServerException;
 import repository.AngajatOficiuRepository;
 import repository.InscriereRepository;
 import repository.ParticipantRepository;

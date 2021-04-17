@@ -15,7 +15,10 @@ namespace model
             Participant = participant;
             Proba = proba;
         }
-        
+        public Inscriere()
+        {
+          
+        }
         public override string ToString()
         {
             return string.Format("[Inscriere: Id={0}, idParticipant={1},idProba={2}]", Id, Participant,Proba);
