@@ -25,5 +25,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../CSharp/CSharp/CSharp/bin/Debug/Concurs.db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="ConcursHib.db" uuid="2190ae5d-c7e7-4e64-8bf3-69812a8d93da">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\ConcursHib.db</jdbc-url>
+    </data-source>
   </component>
 </project>

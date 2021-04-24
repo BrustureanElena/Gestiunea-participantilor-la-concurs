@@ -78,7 +78,7 @@ public class ServiceImplementation  implements IConcursService {
 
     @Override
     public synchronized void login(AngajatOficiu angajatOficiu,IConcursObserver obs) throws ConcursException {
-        AngajatOficiu angajatOficiu1=angajatiOficiuDBRepository.findOneByUsername(angajatOficiu.getUsername());
+        AngajatOficiu angajatOficiu1=angajatiOficiuDBRepository.findOneByUsername(angajatOficiu.getUsername(),angajatOficiu.getParola());
 
       //  AngajatOficiu organizatorR = angajatiOficiuDBRepository.findOrganizatorByUsernameParola(organizator.getUsername(),organizator.getParola());
         if(angajatOficiu1 != null) {

@@ -40,7 +40,7 @@ public class AngajatiOficiuDBRepository implements AngajatOficiuRepository {
     }
 
     @Override
-    public AngajatOficiu findOneByUsername(String usernameDat) {
+    public AngajatOficiu findOneByUsername(String usernameDat,String parolaDat) {
         logger.traceEntry();
         Connection conn = dbUtils.getConnection();
 

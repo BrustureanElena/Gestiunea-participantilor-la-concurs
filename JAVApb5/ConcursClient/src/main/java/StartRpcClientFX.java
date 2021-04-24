@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.Properties;
 public class StartRpcClientFX extends Application {
 
-    private static int defaultChatPort = 55555;
+    private static int defaultChatPort = 55558;
     private static String defaultServer = "localhost";
     @Override
     public void start(Stage primaryStage) throws Exception {

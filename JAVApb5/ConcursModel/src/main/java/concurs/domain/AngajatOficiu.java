@@ -8,6 +8,9 @@ public class AngajatOficiu  implements Entity<Long>, Serializable {
     private String username;
     private String parola;
 
+    public AngajatOficiu(){
+
+    }
     public AngajatOficiu(String username, String parola) {
         this.username = username;
         this.parola = parola;

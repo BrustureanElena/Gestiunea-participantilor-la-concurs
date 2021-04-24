@@ -8,8 +8,8 @@
     <constructor-arg ref="jdbcProps" />
     </bean>
 
-    <bean id="angajatiOficiuRepo" class="concurs.persistance.jdbc.AngajatiOficiuDBRepository">
-        <constructor-arg ref="jdbcProps" />
+    <bean id="angajatiOficiuRepo" class="concurs.persistance.jdbc.AngajatOficiuRepositoryHibernate">
+
     </bean>
 
     <bean id="probaRepo" class="concurs.persistance.jdbc.ProbaDBRepository">
