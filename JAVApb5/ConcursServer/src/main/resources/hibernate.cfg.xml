@@ -13,7 +13,7 @@
      <!--   <property name="connection.url">  jdbc:sqlite:C:\Users\User\Desktop\bazededateMPP\ConcursHib.db</property>-->
         <!--    <property name="hibernate.hbm2ddl.auto">create</property>-->
 
-           <!-- Echo all executed SQL to stdout -->
+             <!-- Echo all executed SQL to stdout -->
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
 

@@ -145,8 +145,19 @@ public class ProbaRepositoryHibernate implements ProbaRepository {
     }
 
     @Override
-    public void update(Proba elem, Long aLong) {
+    public void update(Proba elem) {
 
     }
+
+    @Override
+    public void delete(Long id) {
+
+    }
+
+    @Override
+    public Proba findById(Long aLong) {
+        return null;
+    }
+
 
 }

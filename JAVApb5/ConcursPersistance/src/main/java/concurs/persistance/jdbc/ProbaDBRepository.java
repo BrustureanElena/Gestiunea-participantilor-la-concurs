@@ -78,23 +78,21 @@ public class ProbaDBRepository implements ProbaRepository {
     }
 
     @Override
-    public void update(Proba elem, Long aLong) {
+    public void update(Proba elem) {
 
-        logger.traceEntry("updating request {} ",elem);
-        Connection con=dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("update \"Probe\" set nrParticipanti=? where id=?")){
-
-         //   preStmt.setInt(1,elem.getNrParticipanti());
-            preStmt.setLong(2,elem.getId());
-            int result=preStmt.executeUpdate();
-            logger.trace("Updated {} instances",result);
-
-        }catch (SQLException ex){
-            logger.error(ex);
-            System.err.println("Error DB "+ex);
-        }
-        logger.traceExit();
     }
+
+    @Override
+    public void delete(Long id) {
+
+    }
+
+    @Override
+    public Proba findById(Long aLong) {
+        return null;
+    }
+
+
 
     @Override
     public Iterable<Proba> findAllByDenumire(String denumire1) {

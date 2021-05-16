@@ -83,7 +83,19 @@ public class AngajatOficiuRepositoryHibernate  implements AngajatOficiuRepositor
     }
 
     @Override
-    public void update(AngajatOficiu elem, Long aLong) {
+    public void update(AngajatOficiu elem) {
 
     }
+
+    @Override
+    public void delete(Long id) {
+
+    }
+
+    @Override
+    public AngajatOficiu findById(Long aLong) {
+        return null;
+    }
+
+
 }

@@ -9,6 +9,9 @@ public class Proba  implements Entity<Long>, Serializable {
     private int varstaMin;
     private int varstaMax;
 
+    public Proba() {
+
+    }
 
     public Proba(String denumire,  int varstaMin, int varstaMax) {
         this.denumire = denumire;

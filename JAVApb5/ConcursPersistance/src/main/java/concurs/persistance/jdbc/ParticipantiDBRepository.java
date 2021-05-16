@@ -84,9 +84,21 @@ public class ParticipantiDBRepository implements ParticipantRepository {
     }
 
     @Override
-    public void update(Participant elem, Long aLong) {
+    public void update(Participant elem) {
 
     }
+
+    @Override
+    public void delete(Long id) {
+
+    }
+
+    @Override
+    public Participant findById(Long aLong) {
+        return null;
+    }
+
+
 
     @Override
     public Participant findOne(Long aLong) {

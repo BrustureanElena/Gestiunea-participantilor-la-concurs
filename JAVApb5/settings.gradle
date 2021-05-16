@@ -6,4 +6,5 @@ include 'ConcursPersistance'
 include 'ConcursServer'
 include 'ConcursServices'
 include 'ConcursServices'
+include 'RestServices'
 

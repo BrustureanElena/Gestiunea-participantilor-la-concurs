@@ -89,9 +89,21 @@ public class InscriereDBRepository implements InscriereRepository {
     }
 
     @Override
-    public void update(Inscriere elem, Long aLong) {
+    public void update(Inscriere elem) {
 
     }
+
+    @Override
+    public void delete(Long id) {
+
+    }
+
+    @Override
+    public Inscriere findById(Long aLong) {
+        return null;
+    }
+
+
 
 
 }

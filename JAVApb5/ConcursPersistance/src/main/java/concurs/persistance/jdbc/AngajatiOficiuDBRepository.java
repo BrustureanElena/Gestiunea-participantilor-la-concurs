@@ -35,9 +35,20 @@ public class AngajatiOficiuDBRepository implements AngajatOficiuRepository {
     }
 
     @Override
-    public void update(AngajatOficiu elem, Long aLong) {
+    public void update(AngajatOficiu elem) {
 
     }
+
+    @Override
+    public void delete(Long id) {
+
+    }
+
+    @Override
+    public AngajatOficiu findById(Long aLong) {
+        return null;
+    }
+
 
     @Override
     public AngajatOficiu findOneByUsername(String usernameDat,String parolaDat) {

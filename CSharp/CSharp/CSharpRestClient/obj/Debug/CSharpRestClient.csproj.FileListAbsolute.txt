@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\bin\Debug\CSharpRestClient.exe.config
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\bin\Debug\CSharpRestClient.exe
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\bin\Debug\CSharpRestClient.pdb
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\obj\Debug\CSharpRestClient.csprojAssemblyReference.cache
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\obj\Debug\CSharpRestClient.exe.config
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\obj\Debug\CSharpRestClient.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\obj\Debug\CSharpRestClient.csproj.CopyComplete
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\obj\Debug\CSharpRestClient.exe
+C:\Users\User\Desktop\MPPLab\laborator\mpp-proiect-repository-BrustureanElena\CSharp\CSharp\CSharpRestClient\obj\Debug\CSharpRestClient.pdb
